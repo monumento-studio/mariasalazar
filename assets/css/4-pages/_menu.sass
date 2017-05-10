@@ -1,0 +1,81 @@
+.solid
+	background: $bgcolor
+section.menu
+	padding: 30px
+	height: 100vh
+	position: fixed
+	top: calc(5% - 30px)
+	left: calc(6% - 30px)
+	box-sizing: border-box
+
+	.marialogo
+		img
+			width: 90px
+			margin-bottom: 50px
+	.click
+		font-family: $font2
+		font-size: 1em
+		cursor: pointer
+	.none
+		display: none
+
+	.full
+		animation-name: fadeInDown
+		animation-duration: 1s
+		animation-fill-mode: both
+		.line
+			margin: 20px 0
+			width: 1pt
+			height: 40px
+			background: $naranja
+
+		.links
+				ul
+					width: 125px
+					text-align: justify !important
+					padding: 0 !important
+					margin: 0 !important
+
+					li
+						line-height: 2em
+						display: inline
+						list-style: none
+						color: black
+						text-transform: uppercase
+						text-align: justify
+						letter-spacing: 17px
+						font-size: .8em
+					li:nth-child(2)
+						letter-spacing: 8.25px
+					li:nth-child(3)
+						letter-spacing: 32.52px
+					li:nth-child(4)
+						letter-spacing: 5.3px
+					li:nth-child(5)
+						letter-spacing: 10.3px
+					li:nth-child(6)
+						letter-spacing: 10.3px
+		.lenguaje
+			font-family: $font2
+			text-transform: uppercase
+			font-size: .8em
+
+			a
+				color: $gray
+				&:last-child
+					float: right
+				&:hover
+					color: none
+			.active
+				pointer-events: none
+				color: black
+
+@keyframes fadeInDown
+  from
+    opacity: 0
+    transform: translate3d(0, -50%, 0)
+
+
+  to
+    opacity: 1
+    transform: none
