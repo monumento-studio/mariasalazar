@@ -26,6 +26,33 @@ body {
   margin: 0;
 }
 
+.container {
+  box-sizing: border-box;
+  display: block;
+  max-width: 100%;
+  margin: 120px auto !important;
+}
+.lead {
+  font-family: "Baskerville";
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  margin: 0 0 50px 0;
+}
+.text {
+  font-family: "Baskerville";
+  font-size: 1em;
+  letter-spacing: 2.5px;
+}
+.blend {
+	mix-blend-mode: exclusion !important;
+  color: skyblue !important;
+}
+.block {
+  display: block;
+}
+.center {
+  text-align: center;
+}
 /**
  * Add the correct display in IE 9-.
  */

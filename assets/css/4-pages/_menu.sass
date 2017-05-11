@@ -1,6 +1,5 @@
-.solid
-	background: $bgcolor
 section.menu
+	z-index: 1
 	padding: 30px
 	height: 100vh
 	position: fixed
@@ -8,67 +7,109 @@ section.menu
 	left: calc(6% - 30px)
 	box-sizing: border-box
 
-	.marialogo
-		img
-			width: 90px
-			margin-bottom: 50px
-	.click
-		font-family: $font2
-		font-size: 1em
-		cursor: pointer
-	.none
-		display: none
-
-	.full
-		animation-name: fadeInDown
-		animation-duration: 1s
-		animation-fill-mode: both
-		.line
-			margin: 20px 0
-			width: 1pt
+	.blends
+		mix-blend-mode: exclusion
+		.lay
+			width: 140px
 			height: 40px
-			background: $naranja
+			position: fixed
+			transform: rotate(270deg)
+			bottom: calc(6% + 50px)
+			left: calc(6% - 50px)
 
-		.links
-				ul
-					width: 125px
-					text-align: justify !important
-					padding: 0 !important
-					margin: 0 !important
+			img
+				width: 140px
+				height: 40px
+				position: absolute
+			span
+				display: inline-block
+				position: relative
+				top: 4px
+				left: 8px
+				bottom: 2px
+				padding: 0
+				margin: 0
+				font-size: .8em
+				font-family: $font2
+				letter-spacing: 4px
+				line-height: 1.5
+		.marialogo
+			img
+				width: 90px
+				margin-bottom: 50px
+		.logo
+			position: fixed
+			right: 6%
+			top: 5%
+			z-index: 1
+			img
+				width: 100px
 
-					li
-						line-height: 2em
-						display: inline
-						list-style: none
-						color: black
-						text-transform: uppercase
-						text-align: justify
-						letter-spacing: 17px
-						font-size: .8em
-					li:nth-child(2)
-						letter-spacing: 8.25px
-					li:nth-child(3)
-						letter-spacing: 32.52px
-					li:nth-child(4)
-						letter-spacing: 5.3px
-					li:nth-child(5)
-						letter-spacing: 10.3px
-					li:nth-child(6)
-						letter-spacing: 10.3px
-		.lenguaje
+	nav
+		.click
 			font-family: $font2
-			text-transform: uppercase
-			font-size: .8em
+			font-size: 1em
+			cursor: pointer
+		.none
+			display: none
 
-			a
-				color: $gray
-				&:last-child
-					float: right
-				&:hover
-					color: none
-			.active
-				pointer-events: none
-				color: black
+		.full
+			animation-name: fadeInDown
+			animation-duration: 1s
+			animation-fill-mode: both
+			.line
+				margin: 20px 0
+				width: 1pt
+				height: 40px
+				background: $naranja
+
+			.links
+					ul
+						width: 125px
+						text-align: justify !important
+						padding: 0 !important
+						margin: 0 !important
+
+						li
+							line-height: 2em
+							display: inline
+							list-style: none
+							color: black
+							text-transform: uppercase
+							text-align: justify
+							letter-spacing: 17px
+							font-size: .8em
+						li:nth-child(2)
+							letter-spacing: 8.25px
+						li:nth-child(3)
+							letter-spacing: 32.52px
+						li:nth-child(4)
+							letter-spacing: 5.3px
+						li:nth-child(5)
+							letter-spacing: 10.3px
+						li:nth-child(6)
+							letter-spacing: 10.3px
+					.activel
+						color: $naranja
+						&:hover
+							color: $naranja
+			.lenguaje
+				font-family: $font2
+				text-transform: uppercase
+				font-size: .8em
+
+				a
+					color: $gray
+					&:last-child
+						float: right
+					&:hover
+						color: none
+				.active
+					pointer-events: none
+					color: black
+
+	.solid
+		background: $bgcolor
 
 @keyframes fadeInDown
   from
