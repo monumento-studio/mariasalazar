@@ -300,6 +300,12 @@ body {
   mix-blend-mode: exclusion !important;
   color: skyblue !important; }
 
+.line {
+  margin: 20px 0;
+  width: 1pt;
+  height: 40px;
+  background: #EAA78D; }
+
 .block {
   display: block; }
 
@@ -942,11 +948,9 @@ section.perfil .testimonios2 {
     letter-spacing: 0px !important; }
 
 section.programas .container {
-  margin-top: 30px !important;
-  margin-bottom: 20px !important;
   font-family: "Baskerville"; }
   section.programas .container .sec {
-    margin: 20px 0; }
+    margin: 120px 0; }
     section.programas .container .sec .arrow {
       position: relative;
       bottom: 20px; }
@@ -962,3 +966,111 @@ section.programas .container {
       section.programas .container .sec .arrow img {
         width: 110px;
         position: absolute; }
+
+section.detox .container {
+  font-family: "Baskerville"; }
+  section.detox .container .detox .pull {
+    z-index: -1;
+    color: #EAA78D;
+    font-style: italic;
+    position: relative;
+    bottom: 5px;
+    font-family: "Baskerville";
+    font-size: 2em;
+    text-align: center;
+    padding-right: 30px; }
+  section.detox .container .top {
+    margin-bottom: 50px; }
+    section.detox .container .top .first {
+      position: relative; }
+      section.detox .container .top .first img.tel {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        max-width: 480px; }
+    section.detox .container .top .second {
+      letter-spacing: 3px;
+      font-size: .9em; }
+      section.detox .container .top .second .float .push1 {
+        padding-left: 10px; }
+      section.detox .container .top .second .float .push2 {
+        padding-left: 20px; }
+      section.detox .container .top .second .float .push3 {
+        padding-left: 30px; }
+    section.detox .container .top .line {
+      margin: 20px 0;
+      width: 1pt;
+      height: 40px;
+      background: #EAA78D; }
+  section.detox .container .middle {
+    margin-bottom: 50px;
+    position: relative; }
+    section.detox .container .middle .zan {
+      width: 100%;
+      z-index: -1; }
+    section.detox .container .middle .square {
+      margin-top: 140px;
+      padding: 7px 45px;
+      line-height: 1.5;
+      border: solid 1px #EAA78D;
+      font-size: 1.5em;
+      letter-spacing: 3px; }
+    section.detox .container .middle p.p {
+      letter-spacing: 2px;
+      padding-left: 160px;
+      margin-top: 120px;
+      display: block;
+      width: 370px; }
+  section.detox .container .last .p {
+    padding-top: 70px;
+    letter-spacing: 3px; }
+    section.detox .container .last .p .letra {
+      position: relative; }
+      section.detox .container .last .p .letra .padding {
+        padding-left: 3%; }
+      section.detox .container .last .p .letra h2 {
+        font-size: 4em;
+        font-style: italic;
+        color: #EAA78D;
+        position: absolute;
+        top: -10px;
+        font-weight: lighter;
+        left: 26.5%;
+        z-index: -1; }
+    section.detox .container .last .p .padding {
+      padding-bottom: 30px !important; }
+  section.detox .container .last .img {
+    margin-bottom: 150px; }
+    section.detox .container .last .img img {
+      width: 100%; }
+  section.detox .container .last span {
+    text-transform: uppercase;
+    letter-spacing: 4px; }
+  section.detox .container .last .cuadro {
+    margin-top: 20px;
+    display: block;
+    line-height: 0.5;
+    padding: 20px;
+    border: solid 1px #EAA78D;
+    letter-spacing: 2px; }
+    section.detox .container .last .cuadro .list:first-child {
+      padding-left: 0px; }
+    section.detox .container .last .cuadro .list:nth-child(2) {
+      padding-left: 20px; }
+    section.detox .container .last .cuadro .list:nth-child(3) {
+      padding-left: 40px; }
+    section.detox .container .last .cuadro .list:nth-child(4) {
+      padding-left: 20px; }
+    section.detox .container .last .cuadro .list:nth-child(5) {
+      padding-left: 40px; }
+    section.detox .container .last .cuadro .list:nth-child(6) {
+      padding-left: 60px;
+      line-height: 1; }
+    section.detox .container .last .cuadro .list:nth-child(7) {
+      padding-left: 40px; }
+    section.detox .container .last .cuadro .list:nth-child(8) {
+      padding-left: 20px; }
+    section.detox .container .last .cuadro .list:nth-child(9) {
+      padding-left: 0px; }
+    section.detox .container .last .cuadro .list:nth-child(10) {
+      padding-left: 20px; }
