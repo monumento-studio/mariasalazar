@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		title María Salazar | Contacto
+		meta(charset="utf8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="shortcut icon" href="favicon.png")
+		link(rel="stylesheet" href="assets/css/main.css")
+	body
+		section.contacto
+			include _menu.pug
+			.container
+				.row
+					.col.col--3-of-16.col--push-4-of-16
+						.head
+							p contacto
+				
+				form
+					input(type="text" name="name" placeholder="Nombre")
+					input(type="email" name="email" placeholder="Correo Electronico")
+					textarea(placeholder="Mensaje")
+				.datos
+					.row
+						.col.col--3-of-16.col--push-4-of-16
+							p T. 415 153 3623
+							a(href="mailto:hola@mariasalazar.mx")
+								p E. hola@mariasalazar.mx
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+		script(src="assets/js/functions.js" type="text/javascript")

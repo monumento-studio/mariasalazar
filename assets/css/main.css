@@ -283,7 +283,7 @@ body {
   box-sizing: border-box;
   display: block;
   max-width: 100%;
-  margin: 120px auto !important; }
+  margin: 120px auto 50px auto !important; }
 
 .lead {
   font-family: "Baskerville";
@@ -967,7 +967,63 @@ section.programas .container {
         width: 110px;
         position: absolute; }
 
+section.contacto {
+  font-family: "Baskerville"; }
+  section.contacto .container {
+    margin-top: 50px !important;
+    margin-bottom: 0px !important; }
+    section.contacto .container .head {
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+    section.contacto .container form {
+      padding: 20px;
+      box-sizing: border-box;
+      font-size: 2em;
+      font-family: "Baskerville" !important;
+      display: block;
+      max-width: 60%;
+      margin: 40px auto 10px auto; }
+      section.contacto .container form input[type="text"] {
+        padding: 10px;
+        width: 400px;
+        font-family: "Baskerville" !important;
+        background: none;
+        border: 0;
+        border-bottom: solid 1px #EAA78D; }
+        section.contacto .container form input[type="text"]:focus {
+          outline: none; }
+      section.contacto .container form input[type="email"] {
+        padding: 10px;
+        margin-left: 100px;
+        margin-top: 50px;
+        display: block;
+        width: 400px;
+        font-family: "Baskerville" !important;
+        background: none;
+        border: 0;
+        border-bottom: solid 1px #EAA78D; }
+        section.contacto .container form input[type="email"]:focus {
+          outline: none; }
+      section.contacto .container form textarea {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 150px;
+        width: 450px;
+        margin-left: 200px;
+        margin-top: 50px;
+        font-family: "Baskerville" !important;
+        background: none;
+        border: 0;
+        border-bottom: solid 1px #EAA78D; }
+        section.contacto .container form textarea:focus {
+          outline: none; }
+    section.contacto .container .datos p {
+      line-height: 0;
+      letter-spacing: 3px; }
+
 section.detox .container {
+  margin-bottom: 60px !important;
   font-family: "Baskerville"; }
   section.detox .container .detox .pull {
     z-index: -1;
@@ -1038,7 +1094,7 @@ section.detox .container {
         left: 26.5%;
         z-index: -1; }
     section.detox .container .last .p .padding {
-      padding-bottom: 30px !important; }
+      padding-bottom: 10px !important; }
   section.detox .container .last .img {
     margin-bottom: 150px; }
     section.detox .container .last .img img {
@@ -1074,3 +1130,93 @@ section.detox .container {
       padding-left: 0px; }
     section.detox .container .last .cuadro .list:nth-child(10) {
       padding-left: 20px; }
+
+section.antiestres .container {
+  margin-bottom: 30px !important; }
+  section.antiestres .container .imagen .img {
+    margin-top: -40%; }
+    section.antiestres .container .imagen .img img {
+      width: 100%; }
+  section.antiestres .container .imagen .text {
+    padding-left: 50px;
+    margin-bottom: 50px; }
+  section.antiestres .container .rocks {
+    margin-top: 50px; }
+    section.antiestres .container .rocks .float {
+      float: right; }
+    section.antiestres .container .rocks .img img {
+      width: 100%; }
+  section.antiestres .container .text-rocks {
+    margin-top: 50px; }
+  section.antiestres .container .spa {
+    margin-top: 50px; }
+    section.antiestres .container .spa .lead {
+      border-top: solid 1px #EAA78D;
+      border-bottom: solid 1px #EAA78D;
+      text-align: center;
+      padding: 10px 0; }
+
+section.nutricion .container {
+  margin-bottom: 0px !important; }
+  section.nutricion .container .text-nutricion {
+    margin-top: 50px; }
+    section.nutricion .container .text-nutricion .img img {
+      width: 100%; }
+    section.nutricion .container .text-nutricion .float {
+      float: right; }
+  section.nutricion .container .text-text-nutricion {
+    margin-top: 50px; }
+  section.nutricion .container .sesiones {
+    font-family: "Baskerville";
+    margin-top: 50px; }
+    section.nutricion .container .sesiones .img img {
+      width: 100%; }
+    section.nutricion .container .sesiones .text2 {
+      padding: 10px 0;
+      width: 110%; }
+    section.nutricion .container .sesiones .text3 {
+      padding: 10px 0;
+      letter-spacing: 7px;
+      text-transform: uppercase; }
+  section.nutricion .container .beneficios {
+    margin-top: 50px;
+    font-family: "Baskerville"; }
+    section.nutricion .container .beneficios span {
+      text-transform: uppercase;
+      letter-spacing: 4px; }
+    section.nutricion .container .beneficios .margin {
+      margin-top: 8%; }
+    section.nutricion .container .beneficios .cuadro {
+      margin-top: 20px;
+      display: block;
+      line-height: 0.5;
+      padding: 20px;
+      border: solid 1px #EAA78D;
+      letter-spacing: 2px; }
+      section.nutricion .container .beneficios .cuadro .list:first-child {
+        padding-left: 0px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(2) {
+        padding-left: 20px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(3) {
+        padding-left: 40px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(4) {
+        padding-left: 60px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(5) {
+        padding-left: 40px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(6) {
+        padding-left: 20px;
+        line-height: 1; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(7) {
+        padding-left: 0px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(8) {
+        padding-left: 20px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(9) {
+        padding-left: 40px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(10) {
+        padding-left: 60px; }
+      section.nutricion .container .beneficios .cuadro .list:nth-child(11) {
+        margin-top: -5px;
+        padding-left: 40px;
+        line-height: 1; }
+    section.nutricion .container .beneficios .img img {
+      width: 100%; }
