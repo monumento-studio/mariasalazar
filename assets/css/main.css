@@ -312,6 +312,9 @@ body {
 .center {
   text-align: center; }
 
+.float-right {
+  float: right; }
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -983,7 +986,16 @@ section.contacto {
       display: block;
       max-width: 60%;
       margin: 40px auto 10px auto; }
+      section.contacto .container form input::-webkit-input-placeholder {
+        color: rgba(0, 0, 0, 0.15); }
+      section.contacto .container form input::-moz-placeholder {
+        color: rgba(0, 0, 0, 0.15); }
+      section.contacto .container form input:-ms-input-placeholder {
+        color: rgba(0, 0, 0, 0.15); }
+      section.contacto .container form input::placeholder {
+        color: rgba(0, 0, 0, 0.15); }
       section.contacto .container form input[type="text"] {
+        letter-spacing: 3px;
         padding: 10px;
         width: 400px;
         font-family: "Baskerville" !important;
@@ -993,6 +1005,7 @@ section.contacto {
         section.contacto .container form input[type="text"]:focus {
           outline: none; }
       section.contacto .container form input[type="email"] {
+        letter-spacing: 3px;
         padding: 10px;
         margin-left: 100px;
         margin-top: 50px;
@@ -1005,6 +1018,7 @@ section.contacto {
         section.contacto .container form input[type="email"]:focus {
           outline: none; }
       section.contacto .container form textarea {
+        letter-spacing: 3px;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
@@ -1018,9 +1032,224 @@ section.contacto {
         border-bottom: solid 1px #EAA78D; }
         section.contacto .container form textarea:focus {
           outline: none; }
+      section.contacto .container form textarea::-webkit-input-placeholder {
+        color: rgba(0, 0, 0, 0.15); }
+      section.contacto .container form textarea::-moz-placeholder {
+        color: rgba(0, 0, 0, 0.15); }
+      section.contacto .container form textarea:-ms-input-placeholder {
+        color: rgba(0, 0, 0, 0.15); }
+      section.contacto .container form textarea::placeholder {
+        color: rgba(0, 0, 0, 0.15); }
     section.contacto .container .datos p {
       line-height: 0;
       letter-spacing: 3px; }
+
+section.talleres .imagen .lead {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 15px;
+  border-top: solid 1px #EAA78D;
+  border-bottom: solid 1px #EAA78D; }
+
+section.talleres .imagen .img img {
+  width: 100%; }
+
+section.talleres .etiqueta {
+  margin-top: 50px; }
+  section.talleres .etiqueta .lay {
+    width: 140px;
+    height: 40px; }
+    section.talleres .etiqueta .lay img {
+      width: 170px;
+      height: 40px;
+      position: absolute; }
+    section.talleres .etiqueta .lay span {
+      text-transform: uppercase;
+      display: inline;
+      position: relative;
+      top: 10px;
+      left: 8px;
+      padding: 0 5px 0 0;
+      margin: 0;
+      font-size: .9em;
+      font-family: "Apercu-Mono";
+      letter-spacing: 1.5px;
+      line-height: 1.5; }
+
+section.superballs .imagen .img {
+  position: relative; }
+  section.superballs .imagen .img img {
+    width: 100%; }
+  section.superballs .imagen .img .cuadro {
+    padding: 15px;
+    border: solid 1px black;
+    position: absolute;
+    top: -12%;
+    left: -12%; }
+    section.superballs .imagen .img .cuadro p {
+      text-transform: uppercase;
+      text-align: center;
+      padding: 0;
+      line-height: 2;
+      margin: 0; }
+      section.superballs .imagen .img .cuadro p span.left {
+        float: left;
+        text-align: left; }
+      section.superballs .imagen .img .cuadro p span.right {
+        float: right;
+        text-align: right; }
+
+section.blog .container {
+  margin-top: 70px !important; }
+  section.blog .container main article {
+    position: relative;
+    margin-bottom: 50px; }
+    section.blog .container main article .content {
+      width: 62%;
+      margin: 0 auto !important; }
+      section.blog .container main article .content header .lay {
+        width: 140px;
+        height: 40px; }
+        section.blog .container main article .content header .lay img {
+          width: 170px;
+          height: 40px;
+          position: absolute; }
+        section.blog .container main article .content header .lay time {
+          text-transform: uppercase;
+          display: block;
+          position: relative;
+          top: 11px;
+          left: 8px;
+          margin: 0;
+          font-size: .9em;
+          letter-spacing: 7px;
+          line-height: 1.5;
+          text-align: center !important;
+          font-family: "Apercu-Mono"; }
+      section.blog .container main article .content header .lead {
+        margin-top: 50px; }
+      section.blog .container main article .content header .post-image img {
+        width: 100%; }
+      section.blog .container main article .content header .text {
+        margin-left: 10%; }
+      section.blog .container main article .content .blogmas {
+        font-family: "Baskerville";
+        letter-spacing: 3px; }
+        section.blog .container main article .content .blogmas .contentmas {
+          display: none;
+          margin-top: 50px; }
+          section.blog .container main article .content .blogmas .contentmas .aparte .quote {
+            margin-top: 50px;
+            padding: 20px 70px;
+            border: solid 1px #EAA78D;
+            font-size: 1.5em; }
+          section.blog .container main article .content .blogmas .contentmas .aparte .pie {
+            margin-top: 50px;
+            line-height: 1.3; }
+        section.blog .container main article .content .blogmas .leermenos {
+          cursor: pointer;
+          margin-top: 30px;
+          display: none; }
+        section.blog .container main article .content .blogmas .leermas {
+          cursor: pointer;
+          margin-top: 30px; }
+    section.blog .container main article:nth-child(odd) .content header .post-image img {
+      position: absolute;
+      top: 0;
+      max-width: 50%;
+      right: 0; }
+    section.blog .container main article:nth-child(odd) .content header .lead {
+      width: 40%; }
+    section.blog .container main article:nth-child(odd) .content header .text {
+      width: 40%; }
+    section.blog .container main article:nth-child(odd) .content .blogmas {
+      position: relative; }
+      section.blog .container main article:nth-child(odd) .content .blogmas .contentmas {
+        width: 40%; }
+        section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte {
+          width: 50%;
+          position: absolute;
+          top: 0;
+          right: 0; }
+          section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte .quote {
+            margin-top: 0 !important; }
+    section.blog .container main article:nth-child(even) .content header .lay {
+      margin-left: 60%; }
+    section.blog .container main article:nth-child(even) .content header .post-image img {
+      margin: 0;
+      position: absolute;
+      top: 0;
+      max-width: 50%;
+      left: 0; }
+    section.blog .container main article:nth-child(even) .content header .lead {
+      margin-left: 60%;
+      width: 40%; }
+    section.blog .container main article:nth-child(even) .content header .text {
+      margin-left: 70%;
+      width: 40%; }
+    section.blog .container main article:nth-child(even) .content .blogmas {
+      position: relative; }
+      section.blog .container main article:nth-child(even) .content .blogmas .contentmas {
+        margin-left: 60%;
+        width: 40%; }
+        section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte {
+          width: 50%;
+          position: absolute;
+          top: 0;
+          left: 0; }
+          section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte .quote {
+            margin-top: 0 !important; }
+      section.blog .container main article:nth-child(even) .content .blogmas .leermenos {
+        margin-left: 60%; }
+      section.blog .container main article:nth-child(even) .content .blogmas .leermas {
+        margin-left: 60%; }
+
+@media (max-width: 600px) {
+  article:nth-child(odd) .content header .post-image img {
+    position: static !important;
+    top: 0;
+    max-width: 100% !important;
+    right: 0; }
+  article:nth-child(odd) .content header .lead {
+    width: 100% !important; }
+  article:nth-child(odd) .content header .text {
+    width: 100% !important; }
+  article:nth-child(odd) .content .blogmas {
+    position: relative; }
+    article:nth-child(odd) .content .blogmas .contentmas {
+      width: 100% !important; }
+      article:nth-child(odd) .content .blogmas .contentmas .aparte {
+        width: 100% !important;
+        position: static !important; }
+        article:nth-child(odd) .content .blogmas .contentmas .aparte .quote {
+          margin-top: 0 !important; }
+  article:nth-child(even) .content header .lay {
+    margin-left: 0 !important; }
+  article:nth-child(even) .content header .post-image img {
+    position: static !important;
+    top: 0;
+    max-width: 100% !important;
+    right: 0; }
+  article:nth-child(even) .content header .lead {
+    margin-left: 0 !important;
+    width: 100% !important; }
+  article:nth-child(even) .content header .text {
+    margin-left: 10% !important;
+    width: 100% !important; }
+  article:nth-child(even) .content .blogmas {
+    position: relative; }
+    article:nth-child(even) .content .blogmas .contentmas {
+      margin-left: 0 !important;
+      width: 100% !important; }
+      article:nth-child(even) .content .blogmas .contentmas .aparte {
+        width: 100% !important;
+        position: static !important; }
+        article:nth-child(even) .content .blogmas .contentmas .aparte .quote {
+          margin-top: 0 !important; }
+    article:nth-child(even) .content .blogmas .leermenos {
+      margin-left: 0 !important; }
+    article:nth-child(even) .content .blogmas .leermas {
+      margin-left: 0 !important; } }
 
 section.detox .container {
   margin-bottom: 60px !important;

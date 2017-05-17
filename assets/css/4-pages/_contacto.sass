@@ -14,16 +14,21 @@ section.contacto
 			display: block
 			max-width: 60%
 			margin: 40px auto 10px auto
+			input::placeholder
+			 color: rgba(0,0,0,0.15)
 			input[type="text"]
+				letter-spacing: 3px
 				padding: 10px
 				width: 400px
 				font-family: $font2 !important
 				background: none
 				border: 0
 				border-bottom: solid 1px $naranja
+
 				&:focus
 					outline: none
 			input[type="email"]
+				letter-spacing: 3px
 				padding: 10px
 				margin-left: 100px
 				margin-top: 50px
@@ -36,6 +41,7 @@ section.contacto
 				&:focus
 					outline: none
 			textarea
+				letter-spacing: 3px
 				padding-left: 10px
 				padding-right: 10px
 				padding-top: 10px
@@ -49,7 +55,8 @@ section.contacto
 				border-bottom: solid 1px $naranja
 				&:focus
 					outline: none
-
+			textarea::placeholder
+			 color: rgba(0,0,0,0.15)
 		.datos
 			p
 				line-height: 0

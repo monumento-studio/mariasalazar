@@ -1,0 +1,176 @@
+section.blog
+	.container
+		margin-top: 70px !important
+		main
+			article
+				position: relative
+				margin-bottom: 50px
+				.content
+					width: 62%
+					margin: 0 auto !important
+					header
+						.lay
+							width: 140px
+							height: 40px
+							img
+								width: 170px
+								height: 40px
+								position: absolute
+							time
+								text-transform: uppercase
+								display: block
+								position: relative
+								top: 11px
+								left: 8px
+								margin: 0
+								font-size: .9em
+								letter-spacing: 7px
+								line-height: 1.5
+								text-align: center !important
+								font-family: $font1
+						.lead
+							margin-top: 50px
+						.post-image
+							img
+								width: 100%
+						.text
+							margin-left: 10%
+					.blogmas
+						font-family: $font2
+						letter-spacing: 3px
+						.contentmas
+							display: none
+							margin-top: 50px
+							.aparte
+								.quote
+									margin-top: 50px
+									padding: 20px 70px
+									border: solid 1px $naranja
+									font-size: 1.5em
+								.pie
+									margin-top: 50px
+									line-height: 1.3
+						.leermenos
+							cursor: pointer
+							margin-top: 30px
+							display: none
+						.leermas
+							cursor: pointer
+							margin-top: 30px
+				&:nth-child(odd)
+					.content
+						header
+							.post-image
+								img
+									position: absolute
+									top: 0
+									max-width: 50%
+									right: 0
+							.lead
+								width: 40%
+							.text
+								width: 40%
+						.blogmas
+							position: relative
+							.contentmas
+								width: 40%
+								.aparte
+									width: 50%
+									position: absolute
+									top: 0
+									right: 0
+									.quote
+										margin-top: 0 !important
+				&:nth-child(even)
+					.content
+						header
+							.lay
+								margin-left: 60%
+							.post-image
+								img
+									margin: 0
+									position: absolute
+									top: 0
+									max-width: 50%
+									left: 0
+							.lead
+								margin-left: 60%
+								width: 40%
+							.text
+								margin-left: 70%
+								width: 40%
+						.blogmas
+							position: relative
+							.contentmas
+								margin-left: 60%
+								width: 40%
+								.aparte
+									width: 50%
+									position: absolute
+									top: 0
+									left: 0
+									.quote
+										margin-top: 0 !important
+							.leermenos
+								margin-left: 60%
+							.leermas
+								margin-left: 60%
+
+
+
+@media (max-width: 600px)
+	article
+		&:nth-child(odd)
+			.content
+				header
+					.post-image
+						img
+							position: static !important
+							top: 0
+							max-width: 100% !important
+							right: 0
+					.lead
+						width: 100% !important
+					.text
+						width: 100% !important
+				.blogmas
+					position: relative
+					.contentmas
+						width: 100% !important
+						.aparte
+							width: 100% !important
+							position: static !important
+							.quote
+								margin-top: 0 !important
+
+		&:nth-child(even)
+			.content
+				header
+					.lay
+						margin-left: 0 !important
+					.post-image
+						img
+							position: static !important
+							top: 0
+							max-width: 100% !important
+							right: 0
+					.lead
+						margin-left: 0 !important
+						width: 100% !important
+					.text
+						margin-left: 10% !important
+						width: 100% !important
+				.blogmas
+					position: relative
+					.contentmas
+						margin-left: 0 !important
+						width: 100% !important
+						.aparte
+							width: 100% !important
+							position: static !important
+							.quote
+								margin-top: 0 !important
+					.leermenos
+						margin-left: 0 !important
+					.leermas
+						margin-left: 0 !important
