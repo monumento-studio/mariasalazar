@@ -32,11 +32,18 @@ body {
   max-width: 100%;
   margin: 120px auto 50px auto !important;
 }
+@media screen and (max-width: 640px) {
+  .cel {
+    padding-left: 20% !important;
+    padding-right: 20px;
+    margin: 0 auto !important;
+  }
+}
 .lead {
   font-family: "Baskerville";
   font-size: 1.5em;
   letter-spacing: 5px;
-  margin: 0 0 50px 0;
+  margin: 50px 0 50px 0 !important;
 }
 .text {
   font-family: "Baskerville";
@@ -52,6 +59,10 @@ body {
   width: 1pt;
   height: 40px;
   background: #EAA78D;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
 .block {
   display: block;
