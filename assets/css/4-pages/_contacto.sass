@@ -40,6 +40,11 @@ section.contacto
 				border-bottom: solid 1px $naranja
 				&:focus
 					outline: none
+			input[type="submit"]
+				margin-top: 50px
+				border: solid 1px $naranja
+				font-family: $font2
+				opacity: 0
 			textarea
 				letter-spacing: 3px
 				padding-left: 10px
@@ -58,6 +63,55 @@ section.contacto
 			textarea::placeholder
 			 color: rgba(0,0,0,0.15)
 		.datos
+			margin-bottom: 50px !important
 			p
 				line-height: 0
 				letter-spacing: 3px
+@media screen and (max-width: 640px)
+	section.contacto
+		.head
+			margin-top: 150px !important
+			margin-left: 30% !important
+		form
+			font-size: 1.5em !important
+			input[type="text"]
+				letter-spacing: 3px
+				padding: 10px
+				max-width: 200px !important
+				margin-right: 10px !important
+				font-family: $font2 !important
+				background: none
+				border: 0
+				border-bottom: solid 1px $naranja
+
+				&:focus
+					outline: none
+			input[type="email"]
+				letter-spacing: 3px
+				padding: 10px
+				margin-left: 0 !important
+				margin-top: 50px
+				display: block
+				width: 200px !important
+				font-family: $font2 !important
+				background: none
+				border: 0
+				border-bottom: solid 1px $naranja
+				&:focus
+					outline: none
+			input[type="submit"]
+				opacity: 1 !important
+
+			textarea
+				letter-spacing: 3px
+				padding-left: 10px
+				padding-right: 10px
+				padding-top: 10px
+				padding-bottom: 150px
+				width: 200px !important
+				margin-left: 0 !important
+				margin-top: 50px
+				font-family: $font2 !important
+				background: none
+				border: 0
+				border-bottom: solid 1px $naranja

@@ -1096,6 +1096,11 @@ section.contacto {
         border-bottom: solid 1px #EAA78D; }
         section.contacto .container form input[type="email"]:focus {
           outline: none; }
+      section.contacto .container form input[type="submit"] {
+        margin-top: 50px;
+        border: solid 1px #EAA78D;
+        font-family: "Baskerville";
+        opacity: 0; }
       section.contacto .container form textarea {
         letter-spacing: 3px;
         padding-left: 10px;
@@ -1119,9 +1124,57 @@ section.contacto {
         color: rgba(0, 0, 0, 0.15); }
       section.contacto .container form textarea::placeholder {
         color: rgba(0, 0, 0, 0.15); }
-    section.contacto .container .datos p {
-      line-height: 0;
-      letter-spacing: 3px; }
+    section.contacto .container .datos {
+      margin-bottom: 50px !important; }
+      section.contacto .container .datos p {
+        line-height: 0;
+        letter-spacing: 3px; }
+
+@media screen and (max-width: 640px) {
+  section.contacto .head {
+    margin-top: 150px !important;
+    margin-left: 30% !important; }
+  section.contacto form {
+    font-size: 1.5em !important; }
+    section.contacto form input[type="text"] {
+      letter-spacing: 3px;
+      padding: 10px;
+      max-width: 200px !important;
+      margin-right: 10px !important;
+      font-family: "Baskerville" !important;
+      background: none;
+      border: 0;
+      border-bottom: solid 1px #EAA78D; }
+      section.contacto form input[type="text"]:focus {
+        outline: none; }
+    section.contacto form input[type="email"] {
+      letter-spacing: 3px;
+      padding: 10px;
+      margin-left: 0 !important;
+      margin-top: 50px;
+      display: block;
+      width: 200px !important;
+      font-family: "Baskerville" !important;
+      background: none;
+      border: 0;
+      border-bottom: solid 1px #EAA78D; }
+      section.contacto form input[type="email"]:focus {
+        outline: none; }
+    section.contacto form input[type="submit"] {
+      opacity: 1 !important; }
+    section.contacto form textarea {
+      letter-spacing: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 150px;
+      width: 200px !important;
+      margin-left: 0 !important;
+      margin-top: 50px;
+      font-family: "Baskerville" !important;
+      background: none;
+      border: 0;
+      border-bottom: solid 1px #EAA78D; } }
 
 section.talleres .imagen .lead {
   font-size: 1.3em;
@@ -1155,6 +1208,18 @@ section.talleres .etiqueta {
       letter-spacing: 1.5px;
       line-height: 1.5; }
 
+@media screen and (max-width: 640px) {
+  section.talleres {
+    position: relative !important; }
+    section.talleres .lead {
+      position: relative;
+      left: 10% !important;
+      width: 40%;
+      margin: 0 auto;
+      text-align: center; }
+    section.talleres .texto .text {
+      margin-top: 150px !important; } }
+
 section.superballs .imagen .img {
   position: relative; }
   section.superballs .imagen .img img {
@@ -1177,6 +1242,21 @@ section.superballs .imagen .img {
       section.superballs .imagen .img .cuadro p span.right {
         float: right;
         text-align: right; }
+
+@media screen and (max-width: 640px) {
+  section.superballs .imagen .img {
+    position: relative; }
+    section.superballs .imagen .img img {
+      width: 100%; }
+    section.superballs .imagen .img .cuadro {
+      padding: 15px;
+      border: solid 1px black;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); } }
 
 section.blog .container main article {
   position: relative;
@@ -1206,11 +1286,12 @@ section.blog .container main article {
     width: 100%; }
   section.blog .container main article .content header .text {
     margin-left: 20%;
-    width: 20% !important; }
+    width: 20%; }
   section.blog .container main article .content .blogmas {
     font-family: "Baskerville";
     letter-spacing: 3px; }
     section.blog .container main article .content .blogmas .contentmas {
+      width: 100%;
       display: none;
       margin-top: 50px; }
       section.blog .container main article .content .blogmas .contentmas .aparte .quote {
@@ -1242,19 +1323,20 @@ section.blog .container main article {
     position: relative;
     margin-left: 15% !important; }
     section.blog .container main article:nth-child(odd) .content .blogmas .contentmas {
-      width: 35% !important; }
+      width: 35%; }
       section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte {
-        width: 45% !important;
+        width: 45%;
         position: absolute;
         top: 0;
         right: 20px !important; }
         section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte .quote {
           margin-top: -30px !important; }
       section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .leermas {
-        margin-left: 15% !important; }
+        margin-left: 15%; }
       section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .leermenos {
-        margin-left: 15% !important; }
+        margin-left: 15%; }
   section.blog .container main article:nth-child(even) .content header .lay {
+    position: relative;
     margin-left: 60%; }
   section.blog .container main article:nth-child(even) .content header .post-image img {
     margin: 0;
@@ -1263,21 +1345,22 @@ section.blog .container main article {
     max-width: 50%;
     left: 0; }
   section.blog .container main article:nth-child(even) .content header .lead {
+    position: relative;
+    left: 60%;
     display: block;
-    margin-left: 60%;
     width: 40% !important; }
   section.blog .container main article:nth-child(even) .content header .text {
-    margin-left: 65% !important; }
+    margin-left: 65%; }
   section.blog .container main article:nth-child(even) .content .blogmas {
     position: relative; }
     section.blog .container main article:nth-child(even) .content .blogmas .contentmas {
       margin-left: 60%;
       width: 40%; }
       section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte {
-        width: 40% !important;
+        width: 40%;
         position: absolute;
         top: 0;
-        left: 15% !important; }
+        left: 15%; }
         section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte .quote {
           margin-top: -30px; }
     section.blog .container main article:nth-child(even) .content .blogmas .leermenos {
@@ -1286,55 +1369,76 @@ section.blog .container main article {
       margin-left: 60%; }
 
 @media (max-width: 600px) {
-  article:nth-child(odd) .content header .lay {
-    margin-left: 30% !important; }
-  article:nth-child(odd) .content header .post-image img {
-    position: static !important;
-    top: 0;
-    max-width: 100% !important;
-    right: 0; }
-  article:nth-child(odd) .content header .lead {
-    padding-left: 15%;
-    width: 60% !important; }
-  article:nth-child(odd) .content header .text {
-    width: 100% !important; }
+  article:nth-child(odd) .content header {
+    width: 100% !important;
+    position: relative !important; }
+    article:nth-child(odd) .content header .lay {
+      margin-left: 36% !important; }
+    article:nth-child(odd) .content header .post-image img {
+      position: static !important;
+      top: 0;
+      max-width: 100% !important;
+      right: 0; }
+    article:nth-child(odd) .content header .lead {
+      padding-left: 20%;
+      width: 60% !important; }
+    article:nth-child(odd) .content header .description {
+      width: 100vw !important; }
+      article:nth-child(odd) .content header .description .text {
+        position: relative !important;
+        left: 20%;
+        width: 50% !important;
+        margin-left: 15% !important; }
   article:nth-child(odd) .content .blogmas {
     position: relative; }
     article:nth-child(odd) .content .blogmas .contentmas {
-      width: 100% !important; }
+      margin-left: 20% !important;
+      width: 70% !important; }
       article:nth-child(odd) .content .blogmas .contentmas .aparte {
+        margin-top: 50px;
+        padding: 5px !important;
         width: 100% !important;
         position: static !important; }
         article:nth-child(odd) .content .blogmas .contentmas .aparte .quote {
+          padding: 0px 10px !important;
           margin-top: 0 !important; }
+    article:nth-child(odd) .content .blogmas .leermas {
+      margin-left: 20% !important; }
+    article:nth-child(odd) .content .blogmas .leermenos {
+      margin-left: 20% !important; }
   article:nth-child(even) .content header .lay {
-    margin-left: 0 !important; }
+    margin-left: 36% !important; }
   article:nth-child(even) .content header .post-image img {
     position: static !important;
     top: 0;
     max-width: 100% !important;
     right: 0; }
   article:nth-child(even) .content header .lead {
-    background: pink;
-    margin-left: -20% !important;
+    position: static !important;
+    margin-left: 36% !important;
     width: 60% !important; }
   article:nth-child(even) .content header .text {
-    margin-left: 10% !important;
-    width: 100% !important; }
+    position: relative !important;
+    left: 20%;
+    width: 50% !important;
+    margin-left: 15% !important; }
   article:nth-child(even) .content .blogmas {
     position: relative; }
     article:nth-child(even) .content .blogmas .contentmas {
-      margin-left: 0 !important;
-      width: 100% !important; }
+      margin-left: 30% !important;
+      width: 60% !important; }
       article:nth-child(even) .content .blogmas .contentmas .aparte {
+        margin-top: 50px;
+        padding: 5px !important;
         width: 100% !important;
         position: static !important; }
         article:nth-child(even) .content .blogmas .contentmas .aparte .quote {
+          padding: 0px 10px !important;
           margin-top: 0 !important; }
     article:nth-child(even) .content .blogmas .leermenos {
-      margin-left: 0 !important; }
+      margin-left: 36% !important; }
     article:nth-child(even) .content .blogmas .leermas {
-      margin-left: 0 !important; } }
+      margin-left: 36% !important; } }
 
 @media screen and (min-width: 1290px) {
   section.blog .container main article .content header .lead {

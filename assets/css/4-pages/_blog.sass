@@ -32,11 +32,12 @@ section.blog
 								width: 100%
 						.text
 							margin-left: 20%
-							width: 20% !important
+							width: 20%
 					.blogmas
 						font-family: $font2
 						letter-spacing: 3px
 						.contentmas
+							width: 100%
 							display: none
 							margin-top: 50px
 							.aparte
@@ -75,22 +76,23 @@ section.blog
 							margin-left: 15% !important
 							.contentmas
 
-								width: 35% !important
+								width: 35%
 								.aparte
-									width: 45% !important
+									width: 45%
 									position: absolute
 									top: 0
 									right: 20px !important
 									.quote
 										margin-top: -30px !important
 								.leermas
-									margin-left: 15% !important
+									margin-left: 15%
 								.leermenos
-									margin-left: 15% !important
+									margin-left: 15%
 				&:nth-child(even)
 					.content
 						header
 							.lay
+								position: relative
 								margin-left: 60%
 							.post-image
 								img
@@ -100,21 +102,22 @@ section.blog
 									max-width: 50%
 									left: 0
 							.lead
+								position: relative
+								left: 60%
 								display: block
-								margin-left: 60%
 								width: 40% !important
 							.text
-								margin-left: 65% !important
+								margin-left: 65%
 						.blogmas
 							position: relative
 							.contentmas
 								margin-left: 60%
 								width: 40%
 								.aparte
-									width: 40% !important
+									width: 40%
 									position: absolute
 									top: 0
-									left: 15% !important
+									left: 15%
 									.quote
 										margin-top: -30px
 							.leermenos
@@ -146,8 +149,10 @@ section.blog
 		&:nth-child(odd)
 			.content
 				header
+					width: 100% !important
+					position: relative !important
 					.lay
-						margin-left: 30% !important
+						margin-left: 36% !important
 					.post-image
 						img
 							position: static !important
@@ -155,25 +160,37 @@ section.blog
 							max-width: 100% !important
 							right: 0
 					.lead
-						padding-left: 15%
+						padding-left: 20%
 						width: 60% !important
-					.text
-						width: 100% !important
+					.description
+						width: 100vw !important
+						.text
+							position: relative !important
+							left: 20%
+							width: 50% !important
+							margin-left: 15% !important
 				.blogmas
 					position: relative
 					.contentmas
-						width: 100% !important
+						margin-left: 20% !important
+						width: 70% !important
 						.aparte
+							margin-top: 50px
+							padding: 5px !important
 							width: 100% !important
 							position: static !important
 							.quote
+								padding: 0px 10px !important
 								margin-top: 0 !important
-
+					.leermas
+						margin-left: 20% !important
+					.leermenos
+						margin-left: 20% !important
 		&:nth-child(even)
 			.content
 				header
 					.lay
-						margin-left: 0 !important
+						margin-left: 36% !important
 					.post-image
 						img
 							position: static !important
@@ -181,26 +198,32 @@ section.blog
 							max-width: 100% !important
 							right: 0
 					.lead
-						background: pink
-						margin-left: -20% !important
+						position: static !important
+					
+						margin-left: 36% !important
 						width: 60% !important
 					.text
-						margin-left: 10% !important
-						width: 100% !important
+						position: relative !important
+						left: 20%
+						width: 50% !important
+						margin-left: 15% !important
 				.blogmas
 					position: relative
 					.contentmas
-						margin-left: 0 !important
-						width: 100% !important
+						margin-left: 30% !important
+						width: 60% !important
 						.aparte
+							margin-top: 50px
+							padding: 5px !important
 							width: 100% !important
 							position: static !important
 							.quote
+								padding: 0px 10px !important
 								margin-top: 0 !important
 					.leermenos
-						margin-left: 0 !important
+						margin-left: 36% !important
 					.leermas
-						margin-left: 0 !important
+						margin-left: 36% !important
 
 
 
