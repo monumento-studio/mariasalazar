@@ -1,4 +1,5 @@
 section.talleres
+	display: none
 	.imagen
 		.lead
 			font-size: 1.3em
@@ -30,6 +31,34 @@ section.talleres
 				font-family: $font1
 				letter-spacing: 1.5px
 				line-height: 1.5
+
+
+
+@media screen and (min-width: 1290px)
+	section.talleres
+		.imagen
+			.lead
+			.img
+				img
+		.etiqueta
+			.lay
+				img
+				span
+					text-transform: uppercase
+					display: inline
+					position: relative
+					top: 7px !important
+					left: 12px
+					padding: 0 5px 0 0
+					margin: 0
+					font-size: .7em !important
+					font-family: $font1
+					letter-spacing: 1px
+					line-height: 1.5
+
+
+
+
 @media screen and (max-width: 640px)
 	section.talleres
 		position: relative !important

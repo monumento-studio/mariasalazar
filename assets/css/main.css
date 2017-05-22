@@ -1045,25 +1045,27 @@ section.perfil {
       font-size: 10pt !important;
       letter-spacing: 0px !important; }
 
-section.programas .container {
-  font-family: "Baskerville"; }
-  section.programas .container .sec {
-    margin: 120px 0; }
-    section.programas .container .sec .arrow {
-      position: relative;
-      bottom: 20px; }
-      section.programas .container .sec .arrow p {
-        line-height: 0;
+section.programas {
+  display: none; }
+  section.programas .container {
+    font-family: "Baskerville"; }
+    section.programas .container .sec {
+      margin: 120px 0; }
+      section.programas .container .sec .arrow {
         position: relative;
-        left: 9px;
-        font-family: "Apercu-Mono";
-        text-transform: uppercase;
-        font-size: .8em;
-        top: 1px;
-        letter-spacing: 1px; }
-      section.programas .container .sec .arrow img {
-        width: 110px;
-        position: absolute; }
+        bottom: 20px; }
+        section.programas .container .sec .arrow p {
+          line-height: 0;
+          position: relative;
+          left: 9px;
+          font-family: "Apercu-Mono";
+          text-transform: uppercase;
+          font-size: .8em;
+          top: 1px;
+          letter-spacing: 1px; }
+        section.programas .container .sec .arrow img {
+          width: 110px;
+          position: absolute; }
 
 @media screen and (min-width: 1290px) {
   section.programas .container .sec {
@@ -1224,37 +1226,51 @@ section.contacto {
       border: 0;
       border-bottom: solid 1px #EAA78D; } }
 
-section.talleres .imagen .lead {
-  font-size: 1.3em;
-  text-align: center;
-  padding: 15px;
-  border-top: solid 1px #EAA78D;
-  border-bottom: solid 1px #EAA78D; }
+section.talleres {
+  display: none; }
+  section.talleres .imagen .lead {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px;
+    border-top: solid 1px #EAA78D;
+    border-bottom: solid 1px #EAA78D; }
+  section.talleres .imagen .img img {
+    width: 100%; }
+  section.talleres .etiqueta {
+    margin-top: 50px; }
+    section.talleres .etiqueta .lay {
+      width: 140px;
+      height: 40px; }
+      section.talleres .etiqueta .lay img {
+        width: 170px;
+        height: 40px;
+        position: absolute; }
+      section.talleres .etiqueta .lay span {
+        text-transform: uppercase;
+        display: inline;
+        position: relative;
+        top: 10px;
+        left: 8px;
+        padding: 0 5px 0 0;
+        margin: 0;
+        font-size: .9em;
+        font-family: "Apercu-Mono";
+        letter-spacing: 1.5px;
+        line-height: 1.5; }
 
-section.talleres .imagen .img img {
-  width: 100%; }
-
-section.talleres .etiqueta {
-  margin-top: 50px; }
-  section.talleres .etiqueta .lay {
-    width: 140px;
-    height: 40px; }
-    section.talleres .etiqueta .lay img {
-      width: 170px;
-      height: 40px;
-      position: absolute; }
-    section.talleres .etiqueta .lay span {
-      text-transform: uppercase;
-      display: inline;
-      position: relative;
-      top: 10px;
-      left: 8px;
-      padding: 0 5px 0 0;
-      margin: 0;
-      font-size: .9em;
-      font-family: "Apercu-Mono";
-      letter-spacing: 1.5px;
-      line-height: 1.5; }
+@media screen and (min-width: 1290px) {
+  section.talleres .etiqueta .lay span {
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+    top: 7px !important;
+    left: 12px;
+    padding: 0 5px 0 0;
+    margin: 0;
+    font-size: .7em !important;
+    font-family: "Apercu-Mono";
+    letter-spacing: 1px;
+    line-height: 1.5; } }
 
 @media screen and (max-width: 640px) {
   section.talleres {
@@ -1268,28 +1284,30 @@ section.talleres .etiqueta {
     section.talleres .texto .text {
       margin-top: 150px !important; } }
 
-section.superballs .imagen .img {
-  position: relative; }
-  section.superballs .imagen .img img {
-    width: 100%; }
-  section.superballs .imagen .img .cuadro {
-    padding: 15px;
-    border: solid 1px black;
-    position: absolute;
-    top: -12%;
-    left: -12%; }
-    section.superballs .imagen .img .cuadro p {
-      text-transform: uppercase;
-      text-align: center;
-      padding: 0;
-      line-height: 2;
-      margin: 0; }
-      section.superballs .imagen .img .cuadro p span.left {
-        float: left;
-        text-align: left; }
-      section.superballs .imagen .img .cuadro p span.right {
-        float: right;
-        text-align: right; }
+section.superballs {
+  display: none; }
+  section.superballs .imagen .img {
+    position: relative; }
+    section.superballs .imagen .img img {
+      width: 100%; }
+    section.superballs .imagen .img .cuadro {
+      padding: 15px;
+      border: solid 1px black;
+      position: absolute;
+      top: -12%;
+      left: -12%; }
+      section.superballs .imagen .img .cuadro p {
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0;
+        line-height: 2;
+        margin: 0; }
+        section.superballs .imagen .img .cuadro p span.left {
+          float: left;
+          text-align: left; }
+        section.superballs .imagen .img .cuadro p span.right {
+          float: right;
+          text-align: right; }
 
 @media screen and (max-width: 640px) {
   section.superballs .imagen .img {
@@ -1553,118 +1571,120 @@ section.blog {
     section.blog .container main article:nth-child(even) .content .blogmas .leermas {
       margin-left: 60%; } }
 
-section.detox .container {
-  margin-bottom: 60px !important;
-  font-family: "Baskerville"; }
-  section.detox .container .lead {
-    position: relative;
-    top: -50px;
-    margin-bottom: 0px !important; }
-  section.detox .container .detox .pull {
-    z-index: -1;
-    color: #EAA78D;
-    font-style: italic;
-    position: relative;
-    bottom: 5px;
-    font-family: "Baskerville";
-    font-size: 2em;
-    text-align: center;
-    padding-right: 30px; }
-  section.detox .container .top {
-    margin-bottom: 50px; }
-    section.detox .container .top .first {
+section.detox {
+  display: none; }
+  section.detox .container {
+    margin-bottom: 60px !important;
+    font-family: "Baskerville"; }
+    section.detox .container .lead {
+      position: relative;
+      top: -50px;
+      margin-bottom: 0px !important; }
+    section.detox .container .detox .pull {
+      z-index: -1;
+      color: #EAA78D;
+      font-style: italic;
+      position: relative;
+      bottom: 5px;
+      font-family: "Baskerville";
+      font-size: 2em;
+      text-align: center;
+      padding-right: 30px; }
+    section.detox .container .top {
+      margin-bottom: 50px; }
+      section.detox .container .top .first {
+        position: relative; }
+        section.detox .container .top .first img.tel {
+          position: absolute;
+          right: 0;
+          z-index: -1;
+          max-width: 480px; }
+      section.detox .container .top .second {
+        letter-spacing: 3px;
+        font-size: .9em; }
+        section.detox .container .top .second .float .push1 {
+          padding-left: 10px; }
+        section.detox .container .top .second .float .push2 {
+          padding-left: 20px; }
+        section.detox .container .top .second .float .push3 {
+          padding-left: 30px; }
+      section.detox .container .top .line {
+        margin: 20px 0;
+        width: 1pt;
+        height: 40px;
+        background: #EAA78D; }
+    section.detox .container .middle {
+      margin-bottom: 50px;
       position: relative; }
-      section.detox .container .top .first img.tel {
-        position: absolute;
-        right: 0;
-        z-index: -1;
-        max-width: 480px; }
-    section.detox .container .top .second {
-      letter-spacing: 3px;
-      font-size: .9em; }
-      section.detox .container .top .second .float .push1 {
-        padding-left: 10px; }
-      section.detox .container .top .second .float .push2 {
-        padding-left: 20px; }
-      section.detox .container .top .second .float .push3 {
-        padding-left: 30px; }
-    section.detox .container .top .line {
-      margin: 20px 0;
-      width: 1pt;
-      height: 40px;
-      background: #EAA78D; }
-  section.detox .container .middle {
-    margin-bottom: 50px;
-    position: relative; }
-    section.detox .container .middle .zan {
-      width: 100%;
-      z-index: -1; }
-    section.detox .container .middle .square {
-      margin-top: 140px;
-      padding: 7px 45px;
-      line-height: 1.5;
-      border: solid 1px #EAA78D;
-      font-size: 1.5em;
-      letter-spacing: 3px; }
-    section.detox .container .middle p.p {
-      letter-spacing: 2px;
-      padding-left: 160px;
-      margin-top: 120px;
-      display: block;
-      width: 370px; }
-  section.detox .container .last .p {
-    padding-top: 70px;
-    letter-spacing: 3px; }
-    section.detox .container .last .p .letra {
-      position: relative; }
-      section.detox .container .last .p .letra .padding {
-        padding-left: 3%; }
-      section.detox .container .last .p .letra h2 {
-        font-size: 4em;
-        font-style: italic;
-        color: #EAA78D;
-        position: absolute;
-        top: -10px;
-        font-weight: lighter;
-        left: 26.5%;
+      section.detox .container .middle .zan {
+        width: 100%;
         z-index: -1; }
-    section.detox .container .last .p .padding {
-      padding-bottom: 10px !important; }
-  section.detox .container .last .img {
-    margin-bottom: 150px; }
-    section.detox .container .last .img img {
-      width: 100%; }
-  section.detox .container .last span {
-    text-transform: uppercase;
-    letter-spacing: 4px; }
-  section.detox .container .last .cuadro {
-    margin-top: 20px;
-    display: block;
-    line-height: 0.5;
-    padding: 20px;
-    border: solid 1px #EAA78D;
-    letter-spacing: 2px; }
-    section.detox .container .last .cuadro .list:first-child {
-      padding-left: 0px; }
-    section.detox .container .last .cuadro .list:nth-child(2) {
-      padding-left: 20px; }
-    section.detox .container .last .cuadro .list:nth-child(3) {
-      padding-left: 40px; }
-    section.detox .container .last .cuadro .list:nth-child(4) {
-      padding-left: 20px; }
-    section.detox .container .last .cuadro .list:nth-child(5) {
-      padding-left: 40px; }
-    section.detox .container .last .cuadro .list:nth-child(6) {
-      padding-left: 60px;
-      line-height: 1; }
-    section.detox .container .last .cuadro .list:nth-child(7) {
-      padding-left: 40px; }
-    section.detox .container .last .cuadro .list:nth-child(8) {
-      padding-left: 20px; }
-    section.detox .container .last .cuadro .list:nth-child(9) {
-      padding-left: 0px; }
-    section.detox .container .last .cuadro .list:nth-child(10) {
-      padding-left: 20px; }
+      section.detox .container .middle .square {
+        margin-top: 140px;
+        padding: 7px 45px;
+        line-height: 1.5;
+        border: solid 1px #EAA78D;
+        font-size: 1.5em;
+        letter-spacing: 3px; }
+      section.detox .container .middle p.p {
+        letter-spacing: 2px;
+        padding-left: 160px;
+        margin-top: 120px;
+        display: block;
+        width: 370px; }
+    section.detox .container .last .p {
+      padding-top: 70px;
+      letter-spacing: 3px; }
+      section.detox .container .last .p .letra {
+        position: relative; }
+        section.detox .container .last .p .letra .padding {
+          padding-left: 3%; }
+        section.detox .container .last .p .letra h2 {
+          font-size: 4em;
+          font-style: italic;
+          color: #EAA78D;
+          position: absolute;
+          top: -10px;
+          font-weight: lighter;
+          left: 26.5%;
+          z-index: -1; }
+      section.detox .container .last .p .padding {
+        padding-bottom: 10px !important; }
+    section.detox .container .last .img {
+      margin-bottom: 150px; }
+      section.detox .container .last .img img {
+        width: 100%; }
+    section.detox .container .last span {
+      text-transform: uppercase;
+      letter-spacing: 4px; }
+    section.detox .container .last .cuadro {
+      margin-top: 20px;
+      display: block;
+      line-height: 0.5;
+      padding: 20px;
+      border: solid 1px #EAA78D;
+      letter-spacing: 2px; }
+      section.detox .container .last .cuadro .list:first-child {
+        padding-left: 0px; }
+      section.detox .container .last .cuadro .list:nth-child(2) {
+        padding-left: 20px; }
+      section.detox .container .last .cuadro .list:nth-child(3) {
+        padding-left: 40px; }
+      section.detox .container .last .cuadro .list:nth-child(4) {
+        padding-left: 20px; }
+      section.detox .container .last .cuadro .list:nth-child(5) {
+        padding-left: 40px; }
+      section.detox .container .last .cuadro .list:nth-child(6) {
+        padding-left: 60px;
+        line-height: 1; }
+      section.detox .container .last .cuadro .list:nth-child(7) {
+        padding-left: 40px; }
+      section.detox .container .last .cuadro .list:nth-child(8) {
+        padding-left: 20px; }
+      section.detox .container .last .cuadro .list:nth-child(9) {
+        padding-left: 0px; }
+      section.detox .container .last .cuadro .list:nth-child(10) {
+        padding-left: 20px; }
 
 @media screen and (max-width: 600px) {
   section.detox .container .detox .pull {
@@ -1682,7 +1702,7 @@ section.antiestres {
   section.antiestres .container {
     margin-bottom: 30px !important; }
     section.antiestres .container .imagen .img {
-      margin-top: -40%; }
+      margin-top: -30%; }
       section.antiestres .container .imagen .img img {
         width: 100%; }
     section.antiestres .container .imagen .text {
@@ -1714,70 +1734,72 @@ section.antiestres {
   section.antiestres .container .rocks .img img {
     margin-top: 50px !important; } }
 
-section.nutricion .container {
-  margin-bottom: 0px !important; }
-  section.nutricion .container .text-nutricion {
-    margin-top: 50px; }
-    section.nutricion .container .text-nutricion .img img {
-      width: 100%; }
-    section.nutricion .container .text-nutricion .float {
-      float: right; }
-  section.nutricion .container .text-text-nutricion {
-    margin-top: 50px; }
-  section.nutricion .container .sesiones {
-    font-family: "Baskerville";
-    margin-top: 50px; }
-    section.nutricion .container .sesiones .img img {
-      width: 100%; }
-    section.nutricion .container .sesiones .text2 {
-      padding: 10px 0;
-      width: 110%; }
-    section.nutricion .container .sesiones .text3 {
-      padding: 10px 0;
-      letter-spacing: 7px;
-      text-transform: uppercase; }
-  section.nutricion .container .beneficios {
-    margin-top: 50px;
-    font-family: "Baskerville"; }
-    section.nutricion .container .beneficios span {
-      text-transform: uppercase;
-      letter-spacing: 4px; }
-    section.nutricion .container .beneficios .margin {
-      margin-top: 8%; }
-    section.nutricion .container .beneficios .cuadro {
-      margin-top: 20px;
-      display: block;
-      line-height: 0.5;
-      padding: 20px;
-      border: solid 1px #EAA78D;
-      letter-spacing: 2px; }
-      section.nutricion .container .beneficios .cuadro .list:first-child {
-        padding-left: 0px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(2) {
-        padding-left: 20px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(3) {
-        padding-left: 40px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(4) {
-        padding-left: 60px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(5) {
-        padding-left: 40px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(6) {
-        padding-left: 20px;
-        line-height: 1; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(7) {
-        padding-left: 0px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(8) {
-        padding-left: 20px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(9) {
-        padding-left: 40px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(10) {
-        padding-left: 60px; }
-      section.nutricion .container .beneficios .cuadro .list:nth-child(11) {
-        margin-top: -5px;
-        padding-left: 40px;
-        line-height: 1; }
-    section.nutricion .container .beneficios .img img {
-      width: 100%; }
+section.nutricion {
+  display: none; }
+  section.nutricion .container {
+    margin-bottom: 0px !important; }
+    section.nutricion .container .text-nutricion {
+      margin-top: 50px; }
+      section.nutricion .container .text-nutricion .img img {
+        width: 100%; }
+      section.nutricion .container .text-nutricion .float {
+        float: right; }
+    section.nutricion .container .text-text-nutricion {
+      margin-top: 50px; }
+    section.nutricion .container .sesiones {
+      font-family: "Baskerville";
+      margin-top: 50px; }
+      section.nutricion .container .sesiones .img img {
+        width: 100%; }
+      section.nutricion .container .sesiones .text2 {
+        padding: 10px 0;
+        width: 110%; }
+      section.nutricion .container .sesiones .text3 {
+        padding: 10px 0;
+        letter-spacing: 7px;
+        text-transform: uppercase; }
+    section.nutricion .container .beneficios {
+      margin-top: 50px;
+      font-family: "Baskerville"; }
+      section.nutricion .container .beneficios span {
+        text-transform: uppercase;
+        letter-spacing: 4px; }
+      section.nutricion .container .beneficios .margin {
+        margin-top: 8%; }
+      section.nutricion .container .beneficios .cuadro {
+        margin-top: 20px;
+        display: block;
+        line-height: 0.5;
+        padding: 20px;
+        border: solid 1px #EAA78D;
+        letter-spacing: 2px; }
+        section.nutricion .container .beneficios .cuadro .list:first-child {
+          padding-left: 0px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(2) {
+          padding-left: 20px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(3) {
+          padding-left: 40px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(4) {
+          padding-left: 60px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(5) {
+          padding-left: 40px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(6) {
+          padding-left: 20px;
+          line-height: 1; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(7) {
+          padding-left: 0px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(8) {
+          padding-left: 20px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(9) {
+          padding-left: 40px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(10) {
+          padding-left: 60px; }
+        section.nutricion .container .beneficios .cuadro .list:nth-child(11) {
+          margin-top: -5px;
+          padding-left: 40px;
+          line-height: 1; }
+      section.nutricion .container .beneficios .img img {
+        width: 100%; }
 
 @media screen and (max-width: 600px) {
   section.nutricion .container .sesiones .text2 {

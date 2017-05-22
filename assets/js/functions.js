@@ -61,16 +61,22 @@ setInterval(updateGradient,10);
 
 
 $(document).ready(function () {
-  $( "section.pre" ).fadeIn(2000);
-  $( "section.pre" ).delay(5000).fadeOut(1000);
-  $( ".maria img" ).delay(8200).fadeIn(1500);
-  $( "section.menu" ).delay(11000).fadeIn(1500);
+  $("section.pre" ).fadeIn(2000);
+  $("section.pre" ).delay(5000).fadeOut(1000);
+  $(".maria img" ).delay(8200).fadeIn(1500);
+  $("section.menu" ).delay(11000).fadeIn(1500);
 
-  $( "section.pree" ).fadeIn(1000);
-  $( "section.pree" ).delay(2000).fadeOut(1000);
-  $( "section.antiestres").delay(4200).fadeIn(1500);
-  $( "section.blog").delay(4200).fadeIn(1500);
-  $( "section.contacto").delay(4200).fadeIn(1500);
+  $("section.pree" ).fadeIn(1000);
+  $("section.pree" ).delay(2000).fadeOut(1000);
+  $("section.antiestres").delay(4200).fadeIn(1500);
+  $("section.blog").delay(4200).fadeIn(1500);
+  $("section.contacto").delay(4200).fadeIn(1500);
+  $("section.perfil").delay(4200).fadeIn(1500);
+  $("section.programas").delay(4200).fadeIn(1500);
+  $("section.superballs").delay(4200).fadeIn(1500);
+  $("section.talleres").delay(4200).fadeIn(1500);
+  $("section.detox").delay(4200).fadeIn(1500);
+  $("section.nutricion").delay(4200).fadeIn(1500);
 
 
 
