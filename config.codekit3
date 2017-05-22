@@ -4,16 +4,44 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "A349D8B6-9C9B-444C-9553-EB443933304F"
+		"uuidString": "F4C4A19D-6F20-48FA-8961-1D8D9D0CBD4A"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
+		},
+	"\/_menu.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_menu.html",
+		"oF": 0
+		},
+	"\/_menu.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_menu.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/anti-estrés.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anti-estrés.html",
+		"oF": 0
+		},
+	"\/anti-estrés.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/anti-estrés.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/assets\/css\/1-tools\/_fonts.scss": {
 		"aP": 0,
@@ -41,6 +69,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/1-tools\/_toastgrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/1-tools\/_toastgrid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/1-tools\/_vars.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -50,1020 +91,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/1-tools\/_vars.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/_bourbon-deprecated-upcoming.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/_bourbon-deprecated-upcoming.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/_bourbon.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/_bourbon.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_border-color.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_border-color.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_border-radius.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_border-radius.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_border-style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_border-style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_border-width.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_border-width.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_ellipsis.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_ellipsis.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_font-stacks.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_font-stacks.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_hide-text.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_hide-text.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_margin.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_margin.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_padding.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_padding.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_position.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_position.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_prefixer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_prefixer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_retina-image.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_retina-image.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_size.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_size.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_text-inputs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_text-inputs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_timing-functions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_timing-functions.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_triangle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_triangle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/addons\/_word-wrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/addons\/_word-wrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_animation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_animation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_appearance.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_appearance.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_backface-visibility.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_backface-visibility.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_background-image.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_background-image.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_background.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_background.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_border-image.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_border-image.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_calc.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_calc.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_columns.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_columns.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_filter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_filter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_flex-box.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_flex-box.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_font-face.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_font-face.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_font-feature-settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_font-feature-settings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_hidpi-media-query.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_hidpi-media-query.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_hyphens.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_hyphens.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_image-rendering.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_image-rendering.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_keyframes.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_keyframes.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_linear-gradient.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_linear-gradient.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_perspective.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_perspective.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_placeholder.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_placeholder.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_radial-gradient.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_radial-gradient.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_selection.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_selection.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_text-decoration.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_text-decoration.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_transform.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_transform.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_transition.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_transition.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/css3\/_user-select.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/css3\/_user-select.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_assign-inputs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_assign-inputs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_contains-falsy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_contains-falsy.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_contains.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_contains.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_is-length.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_is-length.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_is-light.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_is-light.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_is-number.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_is-number.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_is-size.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_is-size.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_modular-scale.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_modular-scale.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_px-to-em.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_px-to-em.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_px-to-rem.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_px-to-rem.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_shade.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_shade.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_strip-units.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_strip-units.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_tint.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_tint.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_transition-property-name.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_transition-property-name.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/functions\/_unpack.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/functions\/_unpack.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_convert-units.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_convert-units.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_directional-values.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_directional-values.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_font-source-declaration.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_font-source-declaration.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_gradient-positions-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_gradient-positions-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-angle-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-angle-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-gradient-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-gradient-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-positions-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-positions-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-side-corner-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_linear-side-corner-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_radial-arg-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_radial-arg-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_radial-gradient-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_radial-gradient-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_radial-positions-parser.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_radial-positions-parser.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_render-gradients.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_render-gradients.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_shape-size-stripper.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_shape-size-stripper.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/helpers\/_str-to-num.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/helpers\/_str-to-num.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/settings\/_asset-pipeline.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/settings\/_asset-pipeline.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/settings\/_prefixer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/settings\/_prefixer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/css\/1-tools\/bourbon\/settings\/_px-to-em.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/1-tools\/bourbon\/settings\/_px-to-em.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1120,7 +147,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/2-basics\/_typography.sass": {
+	"\/assets\/css\/4-pages\/_antiestres.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1128,12 +155,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/2-basics\/_typography.css",
+		"oAP": "\/assets\/css\/4-pages\/_antiestres.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/4-pages\/_example-page-home.sass": {
+	"\/assets\/css\/4-pages\/_blog.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1141,7 +168,124 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/4-pages\/_example-page-home.css",
+		"oAP": "\/assets\/css\/4-pages\/_blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_contacto.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_contacto.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_detox.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_detox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_home.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_menu.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_menu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_nutricion.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_nutricion.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_perfil.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_perfil.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_programas.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_programas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_superballs.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_superballs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/4-pages\/_talleres.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/4-pages\/_talleres.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1151,7 +295,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/main-min.css",
 		"oF": 0,
 		"oS": 0
@@ -1163,36 +307,239 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/bauer.otf": {
+	"\/assets\/fonts\/Apercu-Mono.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/bauer.otf",
+		"oAP": "\/assets\/fonts\/Apercu-Mono.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/sharp.otf": {
+	"\/assets\/fonts\/Apercu-Mono.otf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/sharp.otf",
+		"oAP": "\/assets\/fonts\/Apercu-Mono.otf",
 		"oF": 0
 		},
-	"\/assets\/img\/uvas.jpg": {
-		"ft": 16384,
-		"iS": 469430,
-		"oA": 0,
-		"oAP": "\/assets\/img\/uvas.jpg",
+	"\/assets\/fonts\/Apercu-Mono.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Apercu-Mono.svg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Apercu-Mono.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Apercu-Mono.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Apercu-Mono.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Apercu-Mono.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Baskerville.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Baskerville.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Baskerville.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Baskerville.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Baskerville.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Baskerville.ttf",
+		"oF": 0
+		},
+	"\/assets\/img\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/arrow1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/arrow1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/blog\/img\/frutas-01.jpg": {
+		"ft": 16384,
+		"iS": 377089,
+		"oA": 0,
+		"oAP": "\/assets\/img\/blog\/img\/frutas-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/logo-negro.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/logo-negro.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/maria-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/maria-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/maria.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/maria.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/perfil\/comida.jpg": {
+		"ft": 16384,
+		"iS": 1898488,
+		"oA": 0,
+		"oAP": "\/assets\/img\/perfil\/comida.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/perfil\/maria.jpg": {
+		"ft": 16384,
+		"iS": 253617,
+		"oA": 0,
+		"oAP": "\/assets\/img\/perfil\/maria.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/estres-01.jpg": {
+		"ft": 16384,
+		"iS": 1130098,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/estres-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/maria-01.jpg": {
+		"ft": 16384,
+		"iS": 1000757,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/maria-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/maria2-01.jpg": {
+		"ft": 16384,
+		"iS": 1126484,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/maria2-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/rocks-01.jpg": {
+		"ft": 16384,
+		"iS": 1362284,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/rocks-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/tel-01.jpg": {
+		"ft": 16384,
+		"iS": 1078120,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/tel-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/verduras-01.jpg": {
+		"ft": 16384,
+		"iS": 1612008,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/verduras-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/yoga-01.jpg": {
+		"ft": 16384,
+		"iS": 1173762,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/yoga-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/programas\/zan-01.jpg": {
+		"ft": 16384,
+		"iS": 1557176,
+		"oA": 0,
+		"oAP": "\/assets\/img\/programas\/zan-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/superballs\/superballs-01.jpg": {
+		"ft": 16384,
+		"iS": 61605,
+		"oA": 0,
+		"oAP": "\/assets\/img\/superballs\/superballs-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/talleres\/talleres-01.jpg": {
+		"ft": 16384,
+		"iS": 232887,
+		"oA": 0,
+		"oAP": "\/assets\/img\/talleres\/talleres-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/js\/functions-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1201,19 +548,63 @@
 	"\/assets\/js\/jquery-2.1.4.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/js\/jquery-2.1.4.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+	"\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog.html",
+		"oF": 0
+		},
+	"\/blog.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/blog.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/contacto.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contacto.html",
+		"oF": 0
+		},
+	"\/contacto.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/contacto.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/detox.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/detox.html",
+		"oF": 0
+		},
+	"\/detox.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/detox.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/favicon.png": {
 		"ft": 32768,
-		"iS": 266971,
+		"iS": 21935,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -1221,23 +612,89 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+	"\/index.pug": {
+		"cOD": 1,
+		"ft": 512,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "\/index.html",
 		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oS": 0
+		},
+	"\/nutrición.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/nutrición.html",
+		"oF": 0
+		},
+	"\/nutrición.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/nutrición.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/perfil.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/perfil.html",
+		"oF": 0
+		},
+	"\/perfil.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/perfil.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/prepros-6.config": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prepros-6.config",
+		"oF": 0
+		},
+	"\/programas.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/programas.html",
+		"oF": 0
+		},
+	"\/programas.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/programas.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/superballs.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/superballs.html",
+		"oF": 0
+		},
+	"\/superballs.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/superballs.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/talleres.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/talleres.html",
+		"oF": 0
+		},
+	"\/talleres.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/talleres.html",
+		"oF": 0,
+		"oS": 0
 		}
 	},
 "hooks": [
@@ -1246,7 +703,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 507581771,
-	"displayValue": "vinosDeCoahuila",
+	"displayValue": "mariasalazar",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-grumpy"
 	},
@@ -1920,6 +1377,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -2117,6 +1578,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2396,6 +1861,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -2447,6 +1916,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2541,6 +2014,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2987,7 +2464,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3080,7 +2558,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

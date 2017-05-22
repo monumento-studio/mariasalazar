@@ -73,6 +73,32 @@ body {
 .float-right {
   float: right;
 }
+section.pree {
+  display: none;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+section.pree #gradient {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  padding: 0px;
+  box-shadow: inset 0px 0px 40px 40px #F4F3F1;
+}
+
+@media screen and(max-width: 600px){
+	section.pree {
+		#gradient {
+		  width: 300px;
+		  height: 300px;
+    }
+  }
+}
+
 /**
  * Add the correct display in IE 9-.
  */

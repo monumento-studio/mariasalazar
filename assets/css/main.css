@@ -325,6 +325,28 @@ body {
 .float-right {
   float: right; }
 
+section.pree {
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+section.pree #gradient {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  padding: 0px;
+  box-shadow: inset 0px 0px 40px 40px #F4F3F1; }
+
+@media screen and (max-width: 600px) {
+  section.pree #gradient {
+    width: 300px;
+    height: 300px; } }
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -772,7 +794,25 @@ input[type="button"] {
     border-color: #888;
     outline: 0; }
 
+section.pre {
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  section.pre #gradient {
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    box-shadow: inset 0px 0px 40px 40px #F4F3F1; }
+
 section.home .maria img {
+  z-index: -1;
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -781,8 +821,16 @@ section.home .maria img {
   transform: translate(-50%, -50%);
   max-width: 260px; }
 
-section.home section.menu .marialogo {
-  opacity: 0; }
+section.home section.menu {
+  z-index: 1;
+  display: none; }
+  section.home section.menu .marialogo {
+    opacity: 0; }
+
+@media screen and (max-width: 600px) {
+  section.pre #gradient {
+    width: 300px;
+    height: 300px; } }
 
 section.menu {
   z-index: 1;
@@ -943,60 +991,59 @@ section.menu {
   .blends .logo img {
     width: 50px !important; } }
 
-section.perfil .uno {
-  margin-bottom: 120px; }
-  section.perfil .uno .float-rigth {
-    float: right;
-    margin-bottom: 50px; }
-    section.perfil .uno .float-rigth .img {
+section.perfil {
+  display: none; }
+  section.perfil .uno {
+    margin-bottom: 120px; }
+    section.perfil .uno .float-rigth {
+      float: right;
+      margin-bottom: 50px; }
+      section.perfil .uno .float-rigth .img {
+        top: 0;
+        width: 100%; }
+        section.perfil .uno .float-rigth .img img {
+          margin-top: 50px;
+          float: right;
+          display: block;
+          width: 100%; }
+  section.perfil .dos {
+    margin-bottom: 120px; }
+    section.perfil .dos .img {
       top: 0;
       width: 100%; }
-      section.perfil .uno .float-rigth .img img {
-        margin-top: 50px;
+      section.perfil .dos .img img {
+        margin-top: -10px;
         float: right;
         display: block;
-        width: 100%; }
-
-section.perfil .dos {
-  margin-bottom: 120px; }
-  section.perfil .dos .img {
-    top: 0;
-    width: 100%; }
-    section.perfil .dos .img img {
-      margin-top: -10px;
-      float: right;
-      display: block;
-      width: 100%;
-      margin-bottom: 50px; }
-  section.perfil .dos .line {
-    margin: 20px 0;
-    width: 1pt;
-    height: 30px;
-    background: #EAA78D; }
-
-section.perfil .testimonios1 {
-  margin-bottom: 80px; }
-  section.perfil .testimonios1 h2 {
-    margin-bottom: 60px !important; }
-  section.perfil .testimonios1 h3 {
-    border: solid 1pt #EAA78D;
-    padding: 12px 30px;
-    font-size: 12pt;
-    margin-bottom: 60px; }
-  section.perfil .testimonios1 p {
-    font-size: 10pt !important;
-    letter-spacing: 0px !important; }
-
-section.perfil .testimonios2 {
-  margin-bottom: 80px; }
-  section.perfil .testimonios2 h3 {
-    border: solid 1pt #EAA78D;
-    padding: 12px 30px;
-    font-size: 12pt;
-    margin-bottom: 60px; }
-  section.perfil .testimonios2 p {
-    font-size: 10pt !important;
-    letter-spacing: 0px !important; }
+        width: 100%;
+        margin-bottom: 50px; }
+    section.perfil .dos .line {
+      margin: 20px 0;
+      width: 1pt;
+      height: 30px;
+      background: #EAA78D; }
+  section.perfil .testimonios1 {
+    margin-bottom: 80px; }
+    section.perfil .testimonios1 h2 {
+      margin-bottom: 60px !important; }
+    section.perfil .testimonios1 h3 {
+      border: solid 1pt #EAA78D;
+      padding: 12px 30px;
+      font-size: 12pt;
+      margin-bottom: 60px; }
+    section.perfil .testimonios1 p {
+      font-size: 10pt !important;
+      letter-spacing: 0px !important; }
+  section.perfil .testimonios2 {
+    margin-bottom: 80px; }
+    section.perfil .testimonios2 h3 {
+      border: solid 1pt #EAA78D;
+      padding: 12px 30px;
+      font-size: 12pt;
+      margin-bottom: 60px; }
+    section.perfil .testimonios2 p {
+      font-size: 10pt !important;
+      letter-spacing: 0px !important; }
 
 section.programas .container {
   font-family: "Baskerville"; }
@@ -1050,6 +1097,7 @@ section.programas .container {
           letter-spacing: 1px; } }
 
 section.contacto {
+  display: none;
   font-family: "Baskerville"; }
   section.contacto .container {
     margin-top: 50px !important;
@@ -1258,115 +1306,117 @@ section.superballs .imagen .img {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); } }
 
-section.blog .container main article {
-  position: relative;
-  margin-bottom: 8%; }
-  section.blog .container main article .content header .lay {
-    width: 140px;
-    height: 40px; }
-    section.blog .container main article .content header .lay img {
-      width: 170px;
-      height: 40px;
-      position: absolute; }
-    section.blog .container main article .content header .lay time {
-      text-transform: uppercase;
-      display: block;
-      position: relative;
-      top: 11px;
-      left: 8px;
-      margin: 0;
-      font-size: .9em;
-      letter-spacing: 7px;
-      line-height: 1.5;
-      text-align: center !important;
-      font-family: "Apercu-Mono"; }
-  section.blog .container main article .content header .lead {
-    margin-top: 50px; }
-  section.blog .container main article .content header .post-image img {
-    width: 100%; }
-  section.blog .container main article .content header .text {
-    margin-left: 20%;
-    width: 20%; }
-  section.blog .container main article .content .blogmas {
-    font-family: "Baskerville";
-    letter-spacing: 3px; }
-    section.blog .container main article .content .blogmas .contentmas {
-      width: 100%;
-      display: none;
+section.blog {
+  display: none; }
+  section.blog .container main article {
+    position: relative;
+    margin-bottom: 8%; }
+    section.blog .container main article .content header .lay {
+      width: 140px;
+      height: 40px; }
+      section.blog .container main article .content header .lay img {
+        width: 170px;
+        height: 40px;
+        position: absolute; }
+      section.blog .container main article .content header .lay time {
+        text-transform: uppercase;
+        display: block;
+        position: relative;
+        top: 11px;
+        left: 8px;
+        margin: 0;
+        font-size: .9em;
+        letter-spacing: 7px;
+        line-height: 1.5;
+        text-align: center !important;
+        font-family: "Apercu-Mono"; }
+    section.blog .container main article .content header .lead {
       margin-top: 50px; }
-      section.blog .container main article .content .blogmas .contentmas .aparte .quote {
-        margin-top: 50px;
-        padding: 20px 70px;
-        border: solid 1px #EAA78D;
-        font-size: 1.5em; }
-      section.blog .container main article .content .blogmas .contentmas .aparte .pie {
-        margin-top: 50px;
-        line-height: 1.3; }
-    section.blog .container main article .content .blogmas .leermenos {
-      cursor: pointer;
-      margin-top: 30px;
-      display: none; }
-    section.blog .container main article .content .blogmas .leermas {
-      cursor: pointer;
-      margin-top: 30px; }
-  section.blog .container main article:nth-child(odd) .content header .lay {
-    margin-left: 15%; }
-  section.blog .container main article:nth-child(odd) .content header .post-image img {
-    position: absolute;
-    top: 0;
-    max-width: 50%;
-    right: 0; }
-  section.blog .container main article:nth-child(odd) .content header .lead {
-    margin-left: 15% !important;
-    width: 40%; }
-  section.blog .container main article:nth-child(odd) .content .blogmas {
-    position: relative;
-    margin-left: 15% !important; }
-    section.blog .container main article:nth-child(odd) .content .blogmas .contentmas {
-      width: 35%; }
-      section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte {
-        width: 45%;
-        position: absolute;
-        top: 0;
-        right: 20px !important; }
-        section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte .quote {
-          margin-top: -30px !important; }
-      section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .leermas {
-        margin-left: 15%; }
-      section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .leermenos {
-        margin-left: 15%; }
-  section.blog .container main article:nth-child(even) .content header .lay {
-    position: relative;
-    margin-left: 60%; }
-  section.blog .container main article:nth-child(even) .content header .post-image img {
-    margin: 0;
-    position: absolute;
-    top: 0;
-    max-width: 50%;
-    left: 0; }
-  section.blog .container main article:nth-child(even) .content header .lead {
-    position: relative;
-    left: 60%;
-    display: block;
-    width: 40% !important; }
-  section.blog .container main article:nth-child(even) .content header .text {
-    margin-left: 65%; }
-  section.blog .container main article:nth-child(even) .content .blogmas {
-    position: relative; }
-    section.blog .container main article:nth-child(even) .content .blogmas .contentmas {
-      margin-left: 60%;
+    section.blog .container main article .content header .post-image img {
+      width: 100%; }
+    section.blog .container main article .content header .text {
+      margin-left: 20%;
+      width: 20%; }
+    section.blog .container main article .content .blogmas {
+      font-family: "Baskerville";
+      letter-spacing: 3px; }
+      section.blog .container main article .content .blogmas .contentmas {
+        width: 100%;
+        display: none;
+        margin-top: 50px; }
+        section.blog .container main article .content .blogmas .contentmas .aparte .quote {
+          margin-top: 50px;
+          padding: 20px 70px;
+          border: solid 1px #EAA78D;
+          font-size: 1.5em; }
+        section.blog .container main article .content .blogmas .contentmas .aparte .pie {
+          margin-top: 50px;
+          line-height: 1.3; }
+      section.blog .container main article .content .blogmas .leermenos {
+        cursor: pointer;
+        margin-top: 30px;
+        display: none; }
+      section.blog .container main article .content .blogmas .leermas {
+        cursor: pointer;
+        margin-top: 30px; }
+    section.blog .container main article:nth-child(odd) .content header .lay {
+      margin-left: 15%; }
+    section.blog .container main article:nth-child(odd) .content header .post-image img {
+      position: absolute;
+      top: 0;
+      max-width: 50%;
+      right: 0; }
+    section.blog .container main article:nth-child(odd) .content header .lead {
+      margin-left: 15% !important;
       width: 40%; }
-      section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte {
-        width: 40%;
-        position: absolute;
-        top: 0;
-        left: 15%; }
-        section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte .quote {
-          margin-top: -30px; }
-    section.blog .container main article:nth-child(even) .content .blogmas .leermenos {
+    section.blog .container main article:nth-child(odd) .content .blogmas {
+      position: relative;
+      margin-left: 15% !important; }
+      section.blog .container main article:nth-child(odd) .content .blogmas .contentmas {
+        width: 35%; }
+        section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte {
+          width: 45%;
+          position: absolute;
+          top: 0;
+          right: 20px !important; }
+          section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .aparte .quote {
+            margin-top: -30px !important; }
+        section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .leermas {
+          margin-left: 15%; }
+        section.blog .container main article:nth-child(odd) .content .blogmas .contentmas .leermenos {
+          margin-left: 15%; }
+    section.blog .container main article:nth-child(even) .content header .lay {
+      position: relative;
       margin-left: 60%; }
-    section.blog .container main article:nth-child(even) .content .blogmas .leermas {
-      margin-left: 60%; }
+    section.blog .container main article:nth-child(even) .content header .post-image img {
+      margin: 0;
+      position: absolute;
+      top: 0;
+      max-width: 50%;
+      left: 0; }
+    section.blog .container main article:nth-child(even) .content header .lead {
+      position: relative;
+      left: 60%;
+      display: block;
+      width: 40% !important; }
+    section.blog .container main article:nth-child(even) .content header .text {
+      margin-left: 65%; }
+    section.blog .container main article:nth-child(even) .content .blogmas {
+      position: relative; }
+      section.blog .container main article:nth-child(even) .content .blogmas .contentmas {
+        margin-left: 60%;
+        width: 40%; }
+        section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte {
+          width: 40%;
+          position: absolute;
+          top: 0;
+          left: 15%; }
+          section.blog .container main article:nth-child(even) .content .blogmas .contentmas .aparte .quote {
+            margin-top: -30px; }
+      section.blog .container main article:nth-child(even) .content .blogmas .leermenos {
+        margin-left: 60%; }
+      section.blog .container main article:nth-child(even) .content .blogmas .leermas {
+        margin-left: 60%; }
 
 @media (max-width: 600px) {
   article:nth-child(odd) .content header {
@@ -1506,6 +1556,10 @@ section.blog .container main article {
 section.detox .container {
   margin-bottom: 60px !important;
   font-family: "Baskerville"; }
+  section.detox .container .lead {
+    position: relative;
+    top: -50px;
+    margin-bottom: 0px !important; }
   section.detox .container .detox .pull {
     z-index: -1;
     color: #EAA78D;
@@ -1612,30 +1666,53 @@ section.detox .container {
     section.detox .container .last .cuadro .list:nth-child(10) {
       padding-left: 20px; }
 
-section.antiestres .container {
-  margin-bottom: 30px !important; }
-  section.antiestres .container .imagen .img {
-    margin-top: -40%; }
-    section.antiestres .container .imagen .img img {
-      width: 100%; }
+@media screen and (max-width: 600px) {
+  section.detox .container .detox .pull {
+    position: relative;
+    top: -100px; }
+  section.detox .container .middle p.p {
+    letter-spacing: 2px;
+    padding: 10px !important;
+    margin-top: 120px !important;
+    display: block;
+    width: 80% !important; } }
+
+section.antiestres {
+  display: none; }
+  section.antiestres .container {
+    margin-bottom: 30px !important; }
+    section.antiestres .container .imagen .img {
+      margin-top: -40%; }
+      section.antiestres .container .imagen .img img {
+        width: 100%; }
+    section.antiestres .container .imagen .text {
+      padding-left: 50px;
+      margin-bottom: 50px; }
+    section.antiestres .container .rocks {
+      margin-top: 50px; }
+      section.antiestres .container .rocks .float {
+        float: right; }
+      section.antiestres .container .rocks .img img {
+        width: 100%; }
+    section.antiestres .container .text-rocks {
+      margin-top: 50px; }
+    section.antiestres .container .spa {
+      margin-top: 50px; }
+      section.antiestres .container .spa .lead {
+        border-top: solid 1px #EAA78D;
+        border-bottom: solid 1px #EAA78D;
+        text-align: center;
+        padding: 10px 0; }
+
+@media screen and (max-width: 600px) {
+  section.antiestres .container .imagen .img img {
+    margin-top: 200px !important; }
   section.antiestres .container .imagen .text {
-    padding-left: 50px;
-    margin-bottom: 50px; }
-  section.antiestres .container .rocks {
-    margin-top: 50px; }
-    section.antiestres .container .rocks .float {
-      float: right; }
-    section.antiestres .container .rocks .img img {
-      width: 100%; }
-  section.antiestres .container .text-rocks {
-    margin-top: 50px; }
-  section.antiestres .container .spa {
-    margin-top: 50px; }
-    section.antiestres .container .spa .lead {
-      border-top: solid 1px #EAA78D;
-      border-bottom: solid 1px #EAA78D;
-      text-align: center;
-      padding: 10px 0; }
+    margin-bottom: 50px !important; }
+  section.antiestres .container .rocks .float {
+    float: none !important; }
+  section.antiestres .container .rocks .img img {
+    margin-top: 50px !important; } }
 
 section.nutricion .container {
   margin-bottom: 0px !important; }
@@ -1701,3 +1778,40 @@ section.nutricion .container {
         line-height: 1; }
     section.nutricion .container .beneficios .img img {
       width: 100%; }
+
+@media screen and (max-width: 600px) {
+  section.nutricion .container .sesiones .text2 {
+    padding: 10px 0;
+    width: 70% !important;
+    margin-left: 20% !important; }
+  section.nutricion .container .sesiones .text3 {
+    padding: 10px 0;
+    letter-spacing: 7px;
+    text-transform: uppercase; }
+  section.nutricion .container .beneficios .cuadro .list:first-child {
+    padding-left: 0px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(2) {
+    padding-left: 20px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(3) {
+    padding-left: 40px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(4) {
+    padding-left: 60px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(5) {
+    padding-left: 40px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(6) {
+    padding-left: 20px;
+    line-height: 1; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(7) {
+    padding-left: 0px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(8) {
+    padding-left: 20px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(9) {
+    padding-left: 40px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(10) {
+    padding-left: 60px; }
+  section.nutricion .container .beneficios .cuadro .list:nth-child(11) {
+    margin-top: -5px;
+    padding-left: 40px;
+    line-height: 1; }
+  section.nutricion .container .beneficios .img img {
+    width: 100%; } }
