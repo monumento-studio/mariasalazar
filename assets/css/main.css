@@ -1571,6 +1571,43 @@ section.blog {
     section.blog .container main article:nth-child(even) .content .blogmas .leermas {
       margin-left: 60%; } }
 
+section.post {
+  display: none; }
+  section.post .container {
+    width: 60% !important;
+    margin: 50px auto !important; }
+    section.post .container main article {
+      font-family: "Baskerville";
+      position: relative;
+      margin-bottom: 8%; }
+      section.post .container main article .content header .lay {
+        width: 140px;
+        height: 40px; }
+        section.post .container main article .content header .lay img {
+          width: 170px;
+          height: 40px;
+          position: absolute; }
+        section.post .container main article .content header .lay time {
+          text-transform: uppercase;
+          display: block;
+          position: relative;
+          top: 11px;
+          left: 8px;
+          margin: 0;
+          font-size: .9em;
+          letter-spacing: 7px;
+          line-height: 1.5;
+          text-align: center !important;
+          font-family: "Apercu-Mono"; }
+      section.post .container main article .content header .lead {
+        margin-top: 50px; }
+      section.post .container main article .content header .post-image img {
+        width: 100%; }
+      section.post .container main article .content .blogmas {
+        letter-spacing: 3px;
+        margin-top: 50px;
+        margin-bottom: 100px; }
+
 section.detox {
   display: none; }
   section.detox .container {

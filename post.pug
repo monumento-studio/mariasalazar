@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title María Salazar | Post
+    meta(charset="utf8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon" href="favicon.png")
+    link(rel="stylesheet" href="assets/css/main.css")
+  body
+    .
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    section.pree
+      #gradient
+    section.post
+      include _menu.pug
+      .container
+        main#content(role="main")
+          article
+            .content
+              header
+                .lay
+                  img(src="assets/img/arrow1.svg")
+                  time(datatime="2017-05-21") 21.05.17	
+                .lead
+                  h2 Magna Tellus Quam
+                .post-image
+                  img(src="assets/img/blog/img/frutas-01.jpg")
+                .description
+                  .text
+                    .line
+                    p Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+              .blogmas
+                .contentmas
+                  p Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper.
+                  p Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                  .aparte
+                    .quote
+                      p “Donec id elit non mi porta gravida at eget metus donec id elit non mi porta gravida at egetetus.”
+                    .pie
+                      p Dleo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+              .
+                <div class="fb-comments" data-href="https://app-1494018522.000webhostapp.com/" data-width="100%" data-numposts="5"></div>
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src="assets/js/functions.js" type="text/javascript")
