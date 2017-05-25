@@ -1,7 +1,7 @@
 section.post
 	display: none
 	.container
-		width: 60% !important
+		width: 60%
 		margin: 50px auto !important
 		main
 			article
@@ -10,6 +10,11 @@ section.post
 				margin-bottom: 8%
 				.content
 					header
+						.description
+							position: relative
+							width: 100%
+							.text
+								position: relative
 						.lay
 							width: 140px
 							height: 40px
@@ -38,3 +43,55 @@ section.post
 						letter-spacing: 3px
 						margin-top: 50px
 						margin-bottom: 100px
+
+
+@media (max-width: 600px)
+	section.post
+		.container
+			width: 100% !important
+			margin-top: 130px !important
+		article
+				.content
+					header
+						position: relative !important
+						.lay
+							margin-left: 30% !important
+						.post-image
+							img
+								position: static !important
+								top: 0
+								width: 100% !important
+								right: 0
+						.lead
+							padding-left: 25%
+							width: 70% !important
+						.description
+							width: 100% !important
+							.text
+								position: relative !important
+								left: 0% !important
+								width: 75% !important
+								margin-left: 20% !important
+					.blogmas
+						position: relative
+						.contentmas
+							margin-left: 20% !important
+							width: 70% !important
+							.aparte
+								margin-top: 50px
+								padding: 5px !important
+								width: 100% !important
+								position: static !important
+								.quote
+									padding: 0px 10px !important
+									margin-top: 0 !important
+						.leermas
+							margin-left: 20% !important
+						.leermenos
+							margin-left: 20% !important
+					.fb
+						padding: 20px
+						width: 50% !important !important
+						margin: 0 auto
+						.fb-comments
+							margin: 0 auto !important

@@ -1,6 +1,5 @@
 section.contacto
 	display: none
-	font-family: $font2
 	.container
 		margin-top: 50px !important
 		margin-bottom: 0px !important
@@ -8,6 +7,7 @@ section.contacto
 			text-transform: uppercase
 			letter-spacing: 3px
 		form
+			font-family: $font2
 			padding: 20px
 			box-sizing: border-box
 			font-size: 2em
@@ -15,6 +15,7 @@ section.contacto
 			display: block
 			max-width: 60%
 			margin: 40px auto 10px auto
+			overflow: auto
 			input::placeholder
 			 color: rgba(0,0,0,0.15)
 			input[type="text"]
@@ -43,9 +44,14 @@ section.contacto
 					outline: none
 			input[type="submit"]
 				margin-top: 50px
-				border: solid 1px $naranja
+				background: url('../img/arrow.svg')
+				display: block
+				width: 132px
+				border: none
+				padding-left: 0
 				font-family: $font2
-				opacity: 0
+				float: right
+				letter-spacing: 2.5px
 			textarea
 				letter-spacing: 3px
 				padding-left: 10px
@@ -64,10 +70,11 @@ section.contacto
 			textarea::placeholder
 			 color: rgba(0,0,0,0.15)
 		.datos
+			font-family: $font2
+			letter-spacing: 2.5px
 			margin-bottom: 50px !important
 			p
 				line-height: 0
-				letter-spacing: 3px
 @media screen and (max-width: 640px)
 	section.contacto
 		.head
@@ -101,8 +108,6 @@ section.contacto
 				&:focus
 					outline: none
 			input[type="submit"]
-				opacity: 1 !important
-
 			textarea
 				letter-spacing: 3px
 				padding-left: 10px
