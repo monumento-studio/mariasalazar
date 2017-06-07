@@ -1691,6 +1691,117 @@ section.post {
     section.post article .content .fb .fb-comments {
       margin: 0 auto !important; } }
 
+section.spirit {
+  display: none; }
+  section.spirit .container {
+    margin-bottom: 0px !important; }
+    section.spirit .container .text-nutricion {
+      margin-top: 50px; }
+      section.spirit .container .text-nutricion .img img {
+        width: 100%; }
+      section.spirit .container .text-nutricion .float {
+        float: right; }
+    section.spirit .container .text-text-nutricion {
+      margin-top: 50px; }
+    section.spirit .container .sesiones {
+      clear: both;
+      font-family: "Baskerville";
+      margin-top: 50px; }
+      section.spirit .container .sesiones .img img {
+        width: 100%; }
+      section.spirit .container .sesiones .text {
+        width: 40%; }
+        section.spirit .container .sesiones .text h2 {
+          letter-spacing: 10px; }
+      section.spirit .container .sesiones .text2 {
+        width: 60%; }
+      section.spirit .container .sesiones .text3 {
+        width: 60%; }
+      section.spirit .container .sesiones .text4 {
+        padding-top: 50px; }
+        section.spirit .container .sesiones .text4 h2 {
+          text-align: center;
+          width: 60%;
+          padding: 20px 30px;
+          border: solid 1px #EAA78D;
+          margin-bottom: 20px;
+          font-size: 2em;
+          letter-spacing: 5px; }
+    section.spirit .container .beneficios {
+      margin-top: 50px;
+      font-family: "Baskerville"; }
+      section.spirit .container .beneficios span {
+        text-transform: uppercase;
+        letter-spacing: 4px; }
+      section.spirit .container .beneficios .margin {
+        margin-top: 8%; }
+      section.spirit .container .beneficios .cuadro {
+        margin-top: 20px;
+        display: block;
+        line-height: 1;
+        padding: 20px;
+        border: solid 1px #EAA78D;
+        letter-spacing: 2px; }
+        section.spirit .container .beneficios .cuadro .list:first-child {
+          padding-left: 0px; }
+        section.spirit .container .beneficios .cuadro .list:nth-child(2) {
+          padding-left: 20px; }
+        section.spirit .container .beneficios .cuadro .list:nth-child(3) {
+          padding-left: 0px; }
+      section.spirit .container .beneficios .img img {
+        width: 100%; }
+
+@media screen and (max-width: 600px) {
+  section.spirit .container .sesiones .text {
+    width: 60% !important; }
+    section.spirit .container .sesiones .text h2 {
+      letter-spacing: 10px; }
+  section.spirit .container .sesiones .text2 {
+    width: 60%; }
+  section.spirit .container .sesiones .text3 {
+    width: 60%; }
+  section.spirit .container .sesiones .text4 {
+    padding-top: 50px;
+    font-size: 10px !important; }
+    section.spirit .container .sesiones .text4 h2 {
+      text-align: center;
+      width: 60%;
+      padding: 20px 30px;
+      border: solid 1px #EAA78D;
+      margin-bottom: 20px;
+      font-size: 5px !important;
+      letter-spacing: 5px; } }
+
+@media (max-width: 1200px) {
+  section.spirit {
+    display: none; }
+    section.spirit .container {
+      margin-bottom: 0px !important; }
+      section.spirit .container .sesiones {
+        clear: both;
+        font-family: "Baskerville";
+        margin-top: 50px; }
+        section.spirit .container .sesiones .img img {
+          width: 100%; }
+        section.spirit .container .sesiones .text {
+          width: 40% !important; }
+          section.spirit .container .sesiones .text h2 {
+            letter-spacing: 10px; }
+        section.spirit .container .sesiones .text2 {
+          width: 60%; }
+        section.spirit .container .sesiones .text3 {
+          width: 60%; }
+        section.spirit .container .sesiones .text4 {
+          margin-left: 50px !important;
+          width: 100%;
+          padding-top: 50px; }
+          section.spirit .container .sesiones .text4 h2 {
+            text-align: center;
+            width: 50% !important;
+            padding: 10px;
+            border: solid 1px #EAA78D;
+            font-size: 2em !important; } }
+
 section.detox {
   display: none; }
   section.detox .container {

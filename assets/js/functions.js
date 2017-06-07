@@ -78,6 +78,7 @@ $(document).ready(function () {
   $("section.detox").delay(4200).fadeIn(1500);
   $("section.nutricion").delay(4200).fadeIn(1500);
   $("section.post").delay(4200).fadeIn(1500);
+  $("section.spirit").delay(4200).fadeIn(1500);
 
 
 
